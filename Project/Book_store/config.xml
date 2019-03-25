@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><menu>
+  <settings>
+    <useSound>yes</useSound>
+      <startAlpha>59</startAlpha>
+      <endAlpha>0</endAlpha>
+      <startRatio>0</startRatio>
+      <endRatio>179</endRatio>
+      <menuItemBackground>no</menuItemBackground>
+      <menuItemBackgroundColor alpha="50">0x0F0F0F</menuItemBackgroundColor>
+      <menuItemFont>Arial</menuItemFont>
+      <menuItemFontSize>12</menuItemFontSize>
+      <menuItemFontColor>0xFFFFFF</menuItemFontColor>
+      <menuRadius>257</menuRadius>
+      <rotationAxis>30</rotationAxis>
+      <scaleIcons minscale="45" maxscale="190">72</scaleIcons>
+      <useBubble border="0xFFFFFF" x="20" y="-50">yes</useBubble>
+      <menuBackgroundColor>0xFFFFFF</menuBackgroundColor>
+      <menuBackgroundImage x="0" y="0" w="100" h="100" autoscale="1">bgground1.jpg</menuBackgroundImage>
+      <!--<licensekeymain>HOTHOTSOFTWARE_EVALUATION_MODE</licensekeymain>-->
+      <productidversion>2332</productidversion>
+      <rotationSpeed>100</rotationSpeed>
+      <preloader textcolor="0x300000" barcolor="0xFF2020" bordercolor="0xFFFFFF"></preloader>
+  </settings>
+  <icons>
+  <icon>
+    <image>home_img/ARC10.jpg</image>
+    <link >detail.php?id=4&cat=Architecture</link>
+	<caption>Architecture</caption>
+    <sound>sound002.mp3</sound>
+  </icon>
+  <icon>
+    <image>home_img/business.jpg</image>
+    <link >detail.php?id=37&cat=Business</link>
+    <caption>Business</caption>
+    <sound>sound002.mp3</sound>
+  </icon>
+  <icon>
+    <image>home_img/yoga1.jpg</image>
+    <link >detail.php?id=41&cat=Yoga</link>
+    <caption>YOGA</caption>
+    <sound>sound002.mp3</sound>
+  </icon>
+  <icon>
+    <image>home_img/CAT.jpg</image>
+    <link >detail.php?id=40&cat=CAT</link>
+    <caption>CAT</caption>
+    <sound>sound002.mp3</sound>
+  </icon>
+  <icon>
+    <image>home_img/culture.jpg</image>
+    <link >detail.php?id=39&cat=Art And Culture</link>
+    <caption>Indian Cluture</caption>
+    <sound>sound002.mp3</sound>
+  </icon>
+  <icon>
+    <image>home_img/forest.jpg</image>
+    <link>detail.php?id=6&cat=Forest</link>
+    <caption>Forest</caption>
+    <sound>sound002.mp3</sound>
+  </icon>
+  <icon>
+    <image>home_img/JAVA&XML.jpg</image>
+    <link>detail.php?id=8&cat=Programming</link>
+    <caption>JAVA & XML</caption>
+    <sound>sound002.mp3</sound>
+  </icon>
+  <icon>
+    <image>home_img/LAWYER.jpg</image>
+    <link >detail.php?id=38&cat=Low Books</link>
+    <caption>Lawyer</caption>
+    <sound>sound002.mp3</sound>
+  </icon>
+  <icon>
+    <image>home_img/p2.jpg</image>
+    <link >detail.php?id=32&cat=Physics</link>
+    <caption>Physics</caption>
+    <sound>sound002.mp3</sound>
+  </icon>
+  <icon>
+    <image>home_img/cricket.jpg</image>
+    <link>detail.php?id=30&cat=Sports</link>
+    <caption>Cricket</caption>
+    <sound>sound002.mp3</sound>
+  </icon>
+  </icons>
+</menu>
+

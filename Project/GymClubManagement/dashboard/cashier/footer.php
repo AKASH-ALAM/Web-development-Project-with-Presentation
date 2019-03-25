@@ -1,0 +1,1 @@
+<footer class="main"> &copy; 2015 <strong>wadud ove's Gym </strong></footer>

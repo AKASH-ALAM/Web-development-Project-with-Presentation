@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:id;datatype:string,name:name;datatype:string,name:date;datatype:datetime,name:bodyfat;datatype:string,name:water;datatype:string,name:muscle;datatype:string,name:calorie;datatype:string,name:bone;datatype:string,name:remarks;datatype:string" />
+</info>

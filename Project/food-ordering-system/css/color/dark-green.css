@@ -1,0 +1,12 @@
+/*Dark Green:##49A239 CSS*/
+
+.tv-brand > a , .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover , .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover , .navbar-default .navbar-brand, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover , .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover , .tv-menu-feautre > h4 , .tv-dishes-info > span , .tv-discount-title span , .tv-staff-info > h4 , #tv-counter > div > div , .testimonial-slider > i , #foodfooter ul , .tv-backlink-info a , #tv-counter div > span , .tv-services-block-icon i , #blog .btn.btn-read , .tv-welcome-title > h2 , .footer-menu > li > a:hover , .innerlink > a,.icon-short-code .fa,.tv-tag{
+    color:#49A239;
+}
+#tvheader .btn.btn-book , .navbar-default .navbar-toggle .icon-bar, .tv-special-color , #back-to-top , .tv-section-title > h2::before , #about .btn.btn-find:hover , #services .btn.btn-find:hover , #menu .btn.btn-view:hover , .tv-bg-section-title > h2::before , #open .btn.btn-book , #dishes .btn.btn-item:hover , #reservation .btn.btn-reservation:hover , .tv-gallery-effect::before , .tv-gallery-effect::after , #staff .tv-social-navbar > a > span:hover , #myCarousel .carousel-indicators li , .view-fifth .mask , .subscribe-button , .tv-footer-title > h3::before , #foodfooter .tv-social-navbar > a > span:hover , .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover , .tv-box-inner-head > h2:before , .btn-mod:hover, .btn-mod:focus, a.btn-mod:hover, a.btn-mod:focus,mark, .mark
+{
+    background-color: #49A239;
+}
+.tv-section-title > h2 , .tv-sub-menu, #about .btn.btn-find:hover , #services .btn.btn-find:hover , #menu .btn.btn-view:hover , .tv-bg-section-title > h2 , #dishes .btn.btn-item:hover , #reservation .btn.btn-reservation:hover , #staff .tv-social-navbar > a > span:hover , #myCarousel .carousel-indicators li , .tv-footer-title > h3 , #foodfooter .tv-social-navbar > a > span:hover , .tv-about-img::after , #reservation .form-control:focus , .dropdown-content , .tv-box-inner-head > h2,.tv-cust-bq{ 
+    border-color:#49A239;
+}

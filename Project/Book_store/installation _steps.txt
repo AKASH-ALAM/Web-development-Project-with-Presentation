@@ -1,0 +1,29 @@
+Step 1: Create a database name: "book_store"
+step 2: import "book_store.sql" file from database folder
+
+-+-+-++++++++++++++++++++++++++++++++++++++++++
+
+
+Admin Login
+
+user front end login panel for both user admin
+
+Admin User: admin
+Admin Pass: admin123
+
+
+
+=====================================================
+
+
+
+More help 
+
+
+Contact at :  phptpoint@gmail.com
+                   901550189
+
+
+
+
+ 

@@ -1,0 +1,426 @@
+<!--Template Name: FoodEpik
+File Name:buttons.html
+Author Name: ThemeVault
+Author URI: http://www.themevault.net/
+License URI: http://www.themevault.net/license/-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="images/favicon.png"/>
+        <title>FoodEpik</title>
+        <!--<link href="css/scrolling-nav.css" rel="stylesheet" media="all">-->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
+        <link href="css/magnific-popup.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/color/tamarillo.css" title="tamarillo">
+        <link rel="stylesheet" type="text/css" href="css/color/pomegranate.css" title="pomegranate">
+        <link rel="stylesheet" type="text/css" href="css/color/hot-cinnamon.css" title="hot-cinnamon">
+        <link rel="stylesheet" type="text/css" href="css/color/egg-blue.css" title="egg-blue">
+        <link rel="stylesheet" type="text/css" href="css/color/west-side.css" title="west-side">
+        <link rel="stylesheet" type="text/css" href="css/color/dark-green.css" title="dark-green">
+        <!--Script Style-->
+        <script src = "js/jquery.min.js" type= "text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/custom.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="button" data-spy="scroll" data-target=".navbar" data-offset="50">
+            <!--Styleswitcher-->
+        <div class="colors-switcher">
+            <a id="show-panel" class="hide-panel"><img src="images/color-picker.png" class="switch-icon"></a>        
+            <ul class="colors-list">
+                <li><a title="Tamarillo" onClick="setActiveStyleSheet('tamarillo');
+                        return false;" class="tamarillo"></a></li>
+                <li><a title="Pomegranate" class="pomegranate" onClick="setActiveStyleSheet('pomegranate');
+                        return false;"></a></li>
+                <li class="no-margin"><a title="Hot Cinnamon" onClick="setActiveStyleSheet('hot-cinnamon');
+                        return false;" class="hot-cinnamon"></a></li>
+                <li><a title="Egg Blue" class="egg-blue" onClick="setActiveStyleSheet('egg-blue');
+                        return false;"></a></li>
+                <li class="no-margin"><a title="West Side" class="west-side" onClick="setActiveStyleSheet('west-side');
+                        return false;"></a></li>
+                <li><a title="Dark Green" class="dark-green" onClick="setActiveStyleSheet('dark-green');
+                        return false;"></a></li>
+            </ul>
+        </div>  
+        <!-- Styleswitcher End-->
+
+        <!--Header Section-->
+        <header>
+            <nav class="navbar navbar-default navbar-fixed-top tv-navbar-custom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12 col-xs-12">
+                            <div class="navbar-header text-center">
+                                <a href="home.html" class="navbar-brand tv-cafe-logo">FOOdEPIK</a>
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#tv-navbar">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-sm-12 col-xs-12">
+                            <div class="collapse navbar-collapse" id="tv-navbar">
+                                <ul class="nav navbar-nav text-center main-menu">
+                                    <li class="active"><a class="tv-menu" href="#myPage" data-toggle="dropdown">Home</a></li>
+                                    <li class=""><a href="#about" class="tv-menu" data-toggle="dropdown">About Us</a></li>
+                                    <li class=""><a href="#services" class="tv-menu" data-toggle="dropdown">Service</a></li>
+                                    <li class=""><a href="#menu" class="tv-menu" data-toggle="dropdown">Menu</a></li>
+                                    <li class=""><a href="#gallery" class="tv-menu" data-toggle="dropdown">Gallery</a></li>
+                                    <li class=""><a href="#blog" class="tv-menu" data-toggle="dropdown">Blog</a></li>
+                                    <li class="tv-drop-menu">
+                                        <a data-toggle="dropdown" aria-expanded="false" class="tv-menu">Our Elements<i class="fa fa-angle-down"></i></a>
+                                        <ul class="dropdown-menu tv-sub-menu" role="menu">
+                                            <li><a href="accordions.html"><i class="fa fa-plus-circle fa-sm"></i>Accordions</a></li>
+                                            <li><a href="alerts.html"><i class="fa fa-bell fa-sm" aria-hidden="true"></i>Alert</a></li>
+                                            <li><a href="buttons.html"><i class="fa fa-link fa-sm"></i>Button</a></li>
+                                            <li><a href="form-fields.html"><i class="fa fa-align-justify fa-sm"></i>Form Field</a></li>
+                                            <li><a href="grid.html"><i class="fa fa-th fa-sm"></i>Grid</a></li>
+                                            <li><a href="icons.html"><i class="fa fa-heart fa-sm"></i>Icons</a></li>
+                                            <li><a href="message.html"><i class="fa fa-comment fa-sm" aria-hidden="true"></i>Message</a></li>
+                                            <li><a href="tab.html"><i class="fa fa-columns fa-sm"></i>Tab</a></li>
+                                            <li><a href="typography.html"><i class="fa fa-font fa-sm"></i>Typography</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </nav>
+        </header>
+        <!--End Header Section-->
+
+        <!--        Banner Section-->
+        <div class="tv-inner-banner" id="banner" style="background: rgba(0, 0, 0, 0) url('images/bgbanner.png') no-repeat scroll center top / cover;">
+            <div class="container">
+                <div class="row">
+                    <div class="tv-welcome-banner text-center">
+                        <h3 class="tv-area-title">Buttons</h3>
+                        <h4 class="innerlink"><a href="home.html">Home</a> / Buttons</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Banner Section-->
+
+            <section class="tv-buttons-block tv-section-padding">
+                <div class="tv-section-padding-bottom">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="tv-box-inner-head"><h2>Buttons on white</h2></div>
+                            </div>
+                            <div class="tv-buttons-on-white">
+                                <div class=" col-sm-6 col-md-3 col-lg-3">
+                                    <div class="tv-mb-10"><a class=" btn btn-mod  btn-large btn-round" href="">Button</a></div>
+                                    <div class="tv-mb-10"><a class=" btn btn-mod  btn-medium btn-round" href="">Button</a></div>
+                                    <div class="tv-mb-10"><a class=" btn btn-mod  btn-small btn-round" href="">Button</a></div>
+                                    <div class="tv-mb-10"><a class=" btn btn-mod  btn-round" href="">Button</a></div>
+                                </div>
+                                <div class=" col-sm-6 col-md-3 col-lg-3">
+                                    <div class="tv-mb-10"><a class=" btn btn-mod btn-border btn-large btn-round" href="">Button</a></div>
+                                    <div class="tv-mb-10"><a class=" btn btn-mod btn-border btn-medium btn-round" href="">Button</a></div>
+                                    <div class="tv-mb-10"><a class=" btn btn-mod btn-border btn-small btn-round" href="">Button</a></div>
+                                    <div class="tv-mb-10"><a class=" btn btn-mod btn-border btn-round" href="">Button</a></div>
+                                </div>
+                                <div class=" col-sm-6 col-md-3 col-lg-3">
+                                    <div class="tv-mb-10"><a class=" btn btn-mod  btn-large btn-circle" href="">Button</a></div>
+                                    <div class="tv-mb-10"><a class=" btn btn-mod  btn-medium btn-circle" href="">Button</a></div>
+                                    <div class="tv-mb-10"><a class=" btn btn-mod  btn-small btn-circle" href="">Button</a></div>
+                                    <div class="tv-mb-10"><a class=" btn btn-mod  btn-circle" href="">Button</a></div>
+                                </div>
+                                <div class=" col-sm-6 col-md-3 col-lg-3">
+                                    <div class="tv-mb-10"><a class=" btn btn-mod btn-border btn-large btn-circle" href="">Button</a></div>
+                                    <div class="tv-mb-10"><a class=" btn btn-mod btn-border btn-medium btn-circle" href="">Button</a></div>
+                                    <div class="tv-mb-10"><a class=" btn btn-mod btn-border btn-small btn-circle" href="">Button</a></div>
+                                    <div class="tv-mb-10"><a class=" btn btn-mod btn-border btn-circle" href="">Button</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="clearfix"></div>
+                <div class="tv-section-padding">
+                    <div class="tv-offspace-100 tv-bg-dark tv-tb-100">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="tv-box-inner-head"><h2>Buttons On Dark</h2></div>
+                            </div>
+                            <div class=" col-sm-6 col-md-3 col-lg-3">
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-white btn-large btn-round" href="">Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-white btn-medium btn-round" href="">Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-white btn-small btn-round" href="">Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-white btn-round" href="">Button</a></div>
+                            </div>
+                            <div class=" col-sm-6 col-md-3 col-lg-3">
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-border-white btn-large btn-round" href="">Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-border-white btn-medium btn-round" href="">Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-border-white btn-small btn-round" href="">Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-border-white btn-round" href="">Button</a></div>
+                            </div>
+                            <div class=" col-sm-6 col-md-3 col-lg-3">
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-white btn-large btn-circle" href="">Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-white btn-medium btn-circle" href="">Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-white btn-small btn-circle" href="">Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-white btn-circle" href="">Button</a></div>
+                            </div>
+                            <div class=" col-sm-6 col-md-3 col-lg-3">
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-border-white btn-large btn-circle" href="">Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-border-white btn-medium btn-circle" href="">Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-border-white btn-small btn-circle" href="">Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-border-white btn-circle" href="">Button</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="tv-offspace-100 tv-section-padding">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="tv-box-inner-head"><h2>Light Buttons</h2></div>
+                            </div>
+                            <div class=" col-sm-6 col-md-3 col-lg-3">
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-white btn-large btn-round" href="">Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-white btn-medium btn-round" href="">Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-white btn-small btn-round" href="">Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-white btn-round" href="">Button</a></div>
+                            </div>
+                            <div class=" col-sm-6 col-md-3 col-lg-3">
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-border-white btn-large btn-round" href="">Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-border-white btn-medium btn-round" href="">Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-border-white btn-small btn-round" href="">Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-border-white btn-round" href="">Button</a></div>
+                            </div>
+                            <div class=" col-sm-6 col-md-3 col-lg-3">
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-white btn-large btn-circle" href="">Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-white btn-medium btn-circle" href="">Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-white btn-small btn-circle" href="">Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-white btn-circle" href="">Button</a></div>
+                            </div>
+                            <div class=" col-sm-6 col-md-3 col-lg-3">
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-border-white btn-large btn-circle" href="">Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-border-white btn-medium btn-circle" href="">Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-border-white btn-small btn-circle" href="">Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-border-white btn-circle" href="">Button</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="tv-offspace-100 tv-section-padding">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="tv-box-inner-head"><h2>Bootstrap Buttons</h2></div>
+                            </div>
+                            <div class=" col-sm-6 col-md-3 col-lg-3">
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-primary btn-large btn-round" href="">Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-primary btn-medium btn-round" href="">Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-primary btn-small btn-round" href="">Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-primary btn-round" href="">Button</a></div>
+                            </div>
+                            <div class=" col-sm-6 col-md-3 col-lg-3">
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-success btn-large btn-round" href="">Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-success btn-medium btn-round" href="">Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-success btn-small btn-round" href="">Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-success btn-round" href="">Button</a></div>
+                            </div>
+                            <div class=" col-sm-6 col-md-3 col-lg-3">
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-warning btn-large btn-round" href="">Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-warning btn-medium btn-round" href="">Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-warning btn-small btn-round" href="">Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-warning btn-round" href="">Button</a></div>
+                            </div>
+                            <div class=" col-sm-6 col-md-3 col-lg-3">
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-danger btn-large btn-round" href="">Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-danger btn-medium btn-round" href="">Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-danger btn-small btn-round" href="">Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-danger btn-round" href="">Button</a></div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="tv-section-padding">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="tv-box-inner-head"><h2>Buttons With Icons</h2></div>
+                            </div>
+                            <div class=" col-sm-6 col-md-3 col-lg-3">
+                                <div class="tv-mb-10"><a class=" btn btn-mod  btn-large btn-round" href=""><i class="fa fa-glass"></i> Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod  btn-medium btn-round" href=""><i class="fa fa-heart"></i> Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod  btn-small btn-round" href=""><i class="fa fa-tags" aria-hidden="true"></i>
+                                        Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod  btn-round" href=""><i class="fa fa-envelope"></i> Button</a></div>
+                            </div>
+                            <div class=" col-sm-6 col-md-3 col-lg-3">
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-border btn-large btn-round" href=""><i class="fa fa-glass"></i> Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-border btn-medium btn-round" href=""><i class="fa fa-heart"></i> Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-border btn-small btn-round" href=""><i class="fa fa-tags" aria-hidden="true"></i>
+                                        Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-border btn-round" href=""><i class="fa fa-envelope"></i> Button</a></div>
+                            </div>
+                            <div class=" col-sm-6 col-md-3 col-lg-3">
+                                <div class="tv-mb-10"><a class=" btn btn-mod  btn-large btn-circle" href=""><i class="fa fa-glass"></i> Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod  btn-medium btn-circle" href=""><i class="fa fa-heart"></i> Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod  btn-small btn-circle" href=""><i class="fa fa-tags" aria-hidden="true"></i>
+                                        Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod  btn-circle" href=""><i class="fa fa-envelope"></i> Button</a></div>
+                            </div>
+                            <div class=" col-sm-6 col-md-3 col-lg-3">
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-border btn-large btn-circle" href=""><i class="fa fa-glass"></i> Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-border btn-medium btn-circle" href=""><i class="fa fa-heart"></i> Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-border btn-small btn-circle" href=""><i class="fa fa-tags" aria-hidden="true"></i>
+                                        Button</a></div>
+                                <div class="tv-mb-10"><a class=" btn btn-mod btn-border btn-circle" href=""><i class="fa fa-envelope"></i> Button</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--NewsLetter Section-->
+        <section id="newsletter" class="tv-section-padding">
+            <div class="newsletter-bg-img" style="background: rgba(0, 0, 0, 0) url('images/Image46.png') no-repeat scroll center top / cover;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="tv-newsletter-title">
+                                <h3>News Letter</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="tv-newsletter-title">
+                                <p>Sign up with your email to get updates fresh updates about our events...</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-xs-12">
+                            <div class="tv-newsletter-title">
+                                <form>
+                                    <div id="subscribe-block">
+                                        <input class="form-control tv-newsletter-input" required="" value="" name="subscribe" placeholder="Enter Your Email Address" type="text">
+                                        <button class="btn subscribe-button" type="submit">Sign Up</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--NewsLetter Section Ends Here...-->
+
+        <!--Footer Section-->
+        <footer id="foodfooter" class="tv-section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="tv-footer-title">
+                            <h3>About us</h3>
+                        </div>
+                        <div class="tv-footer-info">
+                            <p> Quisque dignissim consectetur est, eget tempor ante. Aliquam hendrerit elementum dui non ultrices. In sagittis euismod mi sed euismod. Donec lacus elit,</p>
+                            <div class="tv-social">
+                                <div class="tv-social-navbar">
+                                    <a href=""><span class="fa fa-facebook-f"></span></a>
+                                    <a href=""><span class="fa fa-twitter"></span></a>
+                                    <a href=""><span class="fa fa-google-plus"></span></a>
+                                    <a href=""><span class="fa fa-linkedin"></span></a>
+                                    <a href=""><span class="fa fa-pinterest"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tv-clear-both col-md-4 col-sm-6 col-xs-12">
+                        <div class="tv-footer-title">
+                            <h3>Working Time</h3>
+                        </div>
+                        <div class="padding-0 col-md-6 col-sm-6 col-xs-6">
+                            <div class="tv-footer-info">
+                                <h5>Mon-Tue</h5>
+                                <h5>Wed</h5>
+                                <h5>Thu-Fri</h5>
+                                <h5>Sat</h5>
+                                <h5>Sun</h5>
+                                <h5>Holidays</h5>
+                            </div>
+                        </div>
+                        <div class="padding-0 col-md-6 col-sm-6 col-xs-6">
+                            <div class="tv-footer-info">
+                                <h5>09.00-22.00</h5>
+                                <h5>08.30-20.30</h5>
+                                <h5>9.45-19.55</h5>
+                                <h5>10.00-20.45</h5>
+                                <h5>08.00-19.10</h5>
+                                <h5>Holidays</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="tv-footer-title">
+                            <h3>Menu Categories</h3>
+                        </div>
+                        <div class="padding-0 col-md-6 col-sm-6 col-xs-6">
+                            <div class="tv-footer-info">
+                                <ul class="footer-menu">
+                                    <li>appetizers</li>
+                                    <li>breakfast</li>
+                                    <li>lunch</li>
+                                    <li>dinner</li>
+                                    <li>soups</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="padding-0 col-md-6 col-sm-6 col-xs-6">
+                            <div class="tv-footer-info">
+                                <ul class="footer-menu">
+                                    <li>appetizers</li>
+                                    <li>breakfast</li>
+                                    <li>lunch</li>
+                                    <li>dinner</li>
+                                    <li>soups</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--Footer Section Ends Here...-->
+
+        <!--Backlink Section-->
+        <section id="backlink" class="tv-section-padding">
+            <div class="tv-backlink-bg-color">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-xs-12">
+                            <div class="tv-backlink-info">
+                                <!--Do not remove Backlink from footer of the template. To remove it you can purchase the Backlink !-->
+                                <p>&copy; All right reserved. Designed by <a href="https://www.themevault.net" target="_blank">ThemeVault</a> </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Backlink Section Ends Here...-->
+
+        <a id="back-to-top" style="display: none;"><i class="tv-bounce fa fa-angle-double-up"></i></a>
+        <script src="js/styleswitcher.js"></script>
+        </div>
+    </body>
+</html>

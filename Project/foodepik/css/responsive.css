@@ -1,0 +1,853 @@
+/*
+Template Name: FoodEpik
+File Name: responsive.css
+Author Name: ThemeVault
+Author URI: http://www.themevault.net/
+License URI: http://www.themevault.net/license/
+*/
+
+/* Landscape phones and smaller */
+
+@media (min-width: 1199px) and (max-width: 1240px) {}
+
+@media (max-width: 1199px) {
+
+}
+
+@media (min-width:1000px) and (max-width:1100px)
+{
+    .tv-address > span {
+        font-size: 11px;
+    }
+    .tv-welcome-banner {
+        width: 100%;
+    }
+    #reservation .btn.btn-reservation
+    {
+        margin-top:10px;
+    }
+    .tv-reservation-details > p
+    {
+        font-size: 11px;
+        width:100%;
+    }
+    .tv-dinning-title > p
+    {
+        width:88%;
+    }
+    #staff .tv-social-navbar > a > span{
+        margin:0 8px;
+    }
+    .tv-deal-image {
+        height: 450px;
+    }
+    .tv-clients-info > p
+    {
+        font-size: 21px;
+    }
+    #foodfooter .tv-social-navbar > a > span
+    {
+        margin:0 7px;
+    }
+    .subscribe-button
+    {
+        right:80px;
+    }
+    #newsletter .form-control::placeholder {
+        font-size: 10px;
+        letter-spacing:0px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .tv-dishes-both
+    {
+        clear:both;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .collapse.in, .tv-sub-sub-menu{
+        display:block !important;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #ffffff;
+    }
+    .navbar-default .menu-active > li > a:hover {
+        background-color: transparent;
+        color:#eb2141 !important;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+    }
+    .nav > li {
+        display:block;
+        position: relative;
+    }
+    .navbar-nav > li {
+        float: none;
+        text-align:left;
+    }
+    .tv-dishes-clear {
+        clear: none;
+    }
+    .tv-deal-image {
+        height: 500px;
+    }
+    .tv-deal-title > p {
+        width: 100%;
+    }
+    .navbar-header{
+        height: 35px;
+    }
+    .tv-menu-title > p {
+        font-size: 11px;
+    }
+    .tv-menu {
+        padding: 0 10px !important;
+    }
+    .tv-about-info > p {
+        font-size: 15px;
+        width:100%;
+    }
+    #about .btn.btn-find {
+        margin-top: 0px;
+    }
+    .tv-services-desc > p {
+        margin-top: 20px;
+    }
+    .tv-dishes-info > h5 {
+        font-size: 15px;
+    }
+    .tv-menu-title > h4 {
+        font-size:10px;
+    }
+    .tv-menu-title > span {
+        font-size: 10px;
+        margin-top: 4px;
+    }
+    #reservation .form-group {
+        margin-bottom: 5px;
+    }
+    .tv-reservation-details > p {
+        width: 100%;
+    }
+    #reservation .btn.btn-reservation {
+        margin-top: 25px;
+    }
+    .tv-dinning-title > p {
+        width: 80%;
+    }
+    .tv-clients-info > p {
+        width: 90%;
+    }
+    .tv-newsletter-input {
+        margin-left: auto;
+        margin-right: auto;
+        width: 43%;
+    }
+    .subscribe-button {
+        right: 30%;
+    }
+    .tv-clear-both
+    {
+        clear:both;
+    }
+    .tv-footer-title {
+        margin-top: 20px;
+    }
+    .tv-discount-title > p {
+        width: 90%;
+    }
+    .tv-address {
+        text-align: center;
+    }
+    .tv-address > span {
+        font-size: 13px;
+    }
+    .tv-address > img {
+        width: 12px;
+    }
+    .tv-brand > h1 {
+        font-size: 40px;
+    }
+    .tv-phone > img {
+        width: 12px;
+    }
+    .tv-phone{
+        text-align: center;
+    }
+    .tv-phone > span {
+        font-size: 13px;
+    }
+    #tvheader .btn.btn-book {
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+    .tv-banner-image {
+        height: 600px;
+    }
+    .tv-welcome-banner {
+        width:100%;
+    }
+    .navbar-header {
+        float: none;
+    }
+    .navbar-nav {
+        float: none;
+    }
+    .navbar-nav > li {
+        float:none;
+    }
+    .dropdown-content{
+        min-width: 150px;
+    }
+    .tv-menu{
+        line-height: 30px !important;
+    }
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (min-width:600px) and (max-width: 767px) {
+    .navbar-collapse {
+        height: 300px;
+    }
+    .tv-menu
+    {
+        text-align: left;
+    }
+    .tv-brand > h1 {
+        margin-top: 0px;
+    }
+    .tv-address {
+        text-align: center;
+    }
+    #tvheader .text-right {
+        text-align: center;
+    }
+    /*    .tv-brand {
+            margin-top: 40px;
+        }*/
+    .tv-welcome-banner {
+        width: 100%;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #a31621;
+    }
+    .tv-welcome-title > h2 {
+        font-size: 40px;
+    }
+    .tv-welcome-title > p {
+        font-size:13px;
+    }
+    #banner .btn.btn-book {
+        font-size: 9px;
+    }
+    .tv-section-title {
+        text-align: center;
+    }
+    .tv-about-info {
+        text-align: center;
+    }
+    .tv-about-info > p {
+        width: 100%;
+    }
+    #about .btn.btn-find {
+        margin-bottom: 30px;
+    }
+    .tv-about-img {
+        margin-top: 40px;
+    }
+    .tv-services-desc {
+        margin-top: 30px;
+    }
+    .tv-menu-img {
+        width: 90px;
+        margin-top:20px;
+    }
+    .tv-menu-title {
+        margin-top: 20px;
+    }
+    .tv-open-title {
+        width: 100%;
+    }
+    .tv-section-title > h2 {
+        font-size: 20px;
+    }
+    .tv-discount-title {
+        left: 50%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        width: 100%;
+    }
+    .tv-discount-title > p {
+        font-size: 20px;
+        width: 100%;
+    }
+    .tv-dinning-title {
+        width: 100%;
+    }
+    .tv-dinning-title > p {
+        width: 100%;
+    }
+    .tv-deal-image {
+        height: 700px;
+    }
+    .tv-deal-banner {
+        width: 100%;
+    }
+    #tv-counter > div {
+        margin: 0 7px;
+    }
+    .tv-deal-title > p {
+        width: 100%;
+    }
+    .tv-clients-info > p {
+        font-size:15px;
+        width: 100%;
+    }
+    .tv-clients-counter {
+        margin-top: 20px;
+    }
+    .testimonial-slider {
+        width: 100%;
+    }
+    .tv-newsletter-title > p {
+        text-align: center;
+    }
+    .tv-newsletter-input {
+        width: 100%;
+    }
+    .subscribe-button {
+        right: 18px;
+    }
+    .tv-footer-title {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .tv-footer-info {
+        text-align: center;
+    }
+    .nav > li {
+        display: block;
+    }
+    .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+        background-color: transparent;
+        color: #000000;
+    }
+    .tv-about-img::after {
+        left: 2%;
+        top: 3%;
+        z-index: -1;
+    }
+    .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+        background-color: transparent;
+        color: #000000;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #a31621;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover
+    {
+        background-color: transparent;
+    }
+    .tv-special-block-title {
+        margin-top: 10px;
+    }
+    .tv-special-block-desc {
+        margin-bottom: 10px;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #ffffff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover{
+        color: #222222;
+    }
+}
+
+@media (max-width: 600px) {
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #a31621;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover
+    {
+        background-color: transparent;
+    }
+    .tv-special-block-title {
+        margin-top: 10px;
+    }
+    .tv-special-block-desc {
+        margin-bottom: 10px;
+    }
+    .tv-address {
+        text-align: center;
+    }
+    #tvheader .text-right {
+        text-align: center;
+    }
+    .tv-welcome-banner {
+        width: 100%;
+    }
+    .tv-welcome-title > h2 {
+        font-size: 40px;
+    }
+    .tv-welcome-title > p {
+        font-size:15px;
+    }
+    #banner .btn.btn-book {
+        font-size: 9px;
+    }
+    .tv-section-title {
+        text-align: center;
+    }
+    .tv-about-info {
+        text-align: center;
+    }
+    .tv-about-info > p {
+        width: 100%;
+    }
+    #about .btn.btn-find {
+        margin-bottom: 30px;
+    }
+    .tv-about-img {
+        margin-top: 40px;
+    }
+    .tv-services-desc {
+        margin-top: 30px;
+    }
+    .tv-menu-img {
+        width: 90px;
+        margin-top:20px;
+    }
+    .tv-menu-title {
+        margin-top: 20px;
+    }
+    .tv-open-title {
+        width: 100%;
+    }
+    .tv-section-title > h2 {
+        font-size: 20px;
+    }
+    .tv-discount-title {
+        left: 50%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        width: 100%;
+    }
+    .tv-discount-title > p {
+        font-size: 20px;
+        width: 100%;
+    }
+    .tv-dinning-title {
+        width: 100%;
+    }
+    .tv-dinning-title > p {
+        width: 100%;
+    }
+    .tv-deal-image {
+        height: 700px;
+    }
+    .tv-deal-banner {
+        width: 100%;
+    }
+    #tv-counter > div {
+        margin: 0 7px;
+    }
+    .tv-deal-title > p {
+        width: 100%;
+    }
+    .tv-clients-info > p {
+        font-size:15px;
+        width: 100%;
+    }
+    .tv-clients-counter {
+        margin-top: 20px;
+    }
+    .testimonial-slider {
+        width: 100%;
+    }
+    .tv-newsletter-title > p {
+        text-align: center;
+    }
+    .tv-newsletter-input {
+        width: 100%;
+    }
+    .subscribe-button {
+        right: 18px;
+    }
+    .tv-footer-title {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .tv-footer-info {
+        text-align: center;
+    }
+    .nav > li {
+        display: block;
+    }
+    .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+        background-color: transparent;
+        color: #000000;
+    }
+    .tv-about-img::after {
+        left: 2%;
+        top: 5%;
+        z-index: -1;
+    }
+    .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+        background-color: transparent;
+        color: #000000;
+    }
+    .tv-brand > h1 {
+        margin-top: 0px;
+    }
+    .tv-menu
+    {
+        text-align: left;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #ffffff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover{
+        color: #222222;
+    }
+    .navbar-nav>li>a {
+        padding-bottom: 0px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #a31621;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover
+    {
+        background-color: transparent;
+    }
+    .tv-special-block-title {
+        margin-top: 10px;
+    }
+    .tv-special-block-desc {
+        margin-bottom: 10px;
+    }
+    .tv-address {
+        text-align: center;
+    }
+    #tvheader .text-right {
+        text-align: center;
+    }
+    /*    .tv-brand {
+            margin-top: 40px;
+        }*/
+    .tv-welcome-banner {
+        width: 100%;
+    }
+    .tv-welcome-title > h2 {
+        font-size: 40px;
+    }
+    .tv-welcome-title > p {
+        font-size:15px;
+    }
+    #banner .btn.btn-book {
+        font-size: 9px;
+    }
+    .tv-section-title {
+        text-align: center;
+    }
+    .tv-about-info {
+        text-align: center;
+    }
+    .tv-about-info > p {
+        width: 100%;
+    }
+    #about .btn.btn-find {
+        margin-bottom: 30px;
+    }
+    .tv-about-img {
+        margin-top: 40px;
+    }
+    .tv-services-desc {
+        margin-top: 30px;
+    }
+    .tv-menu-img {
+        width: 90px;
+        margin-top:20px;
+    }
+    .tv-menu-title {
+        margin-top: 20px;
+    }
+    .tv-open-title {
+        width: 100%;
+    }
+    .tv-section-title > h2 {
+        font-size: 20px;
+    }
+    .tv-discount-title {
+        left: 50%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        width: 100%;
+    }
+    .tv-discount-title > p {
+        font-size: 20px;
+        width: 100%;
+    }
+    .tv-dinning-title {
+        width: 100%;
+    }
+    .tv-dinning-title > p {
+        width: 100%;
+    }
+    .tv-deal-image {
+        height: 700px;
+    }
+    .tv-deal-banner {
+        width: 100%;
+    }
+    #tv-counter > div {
+        margin: 0 7px;
+    }
+    .tv-deal-title > p {
+        width: 100%;
+    }
+    .tv-clients-info > p {
+        font-size:15px;
+        width: 100%;
+    }
+    .tv-clients-counter {
+        margin-top: 20px;
+    }
+    .testimonial-slider {
+        width: 100%;
+    }
+    .tv-newsletter-title > p {
+        text-align: center;
+    }
+    .tv-newsletter-input {
+        width: 100%;
+    }
+    .subscribe-button {
+        right: 18px;
+    }
+    .tv-footer-title {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .tv-footer-info {
+        text-align: center;
+    }
+    .nav > li {
+        display: block;
+    }
+    .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+        background-color: transparent;
+        color: #000000;
+    }
+    .tv-about-img::after {
+        left: 3%;
+        top: 5%;
+        z-index: -1;
+    }
+    .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+        background-color: transparent;
+        color: #000000;
+    }
+    .tv-brand > h1 {
+        margin-top: 0px;
+    }
+    .tv-menu
+    {
+        text-align: left;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #ffffff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover{
+        color: #222222;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .tv-deal-title > h3 {
+        font-size: 25px;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #a31621;
+    }
+    .tv-menu-title > h4 {
+        font-size: 0.8em;
+    }
+    .tv-address {
+        text-align: center;
+    }
+    #tvheader .text-right {
+        text-align: center;
+    }
+    .tv-menu
+    {
+        text-align: left;
+    }
+    .tv-welcome-banner {
+        width: 100%;
+    }
+    .tv-welcome-title > h2 {
+        font-size: 40px;
+    }
+    .tv-welcome-title > p {
+        font-size:15px;
+    }
+    #banner .btn.btn-book {
+        font-size: 9px;
+    }
+    .tv-section-title {
+        text-align: center;
+    }
+    .tv-about-info {
+        text-align: center;
+    }
+    .tv-about-info > p {
+        width: 100%;
+    }
+    #about .btn.btn-find {
+        margin-bottom: 30px;
+    }
+    .tv-about-img {
+        margin-top: 40px;
+    }
+    .tv-services-desc {
+        margin-top: 30px;
+    }
+    .tv-menu-img {
+        width: 90px;
+        margin-top:20px;
+    }
+    .tv-menu-title {
+        margin-top: 20px;
+    }
+    .tv-open-title {
+        width: 100%;
+    }
+    .tv-section-title > h2 {
+        font-size: 20px;
+    }
+    .tv-discount-title {
+        left: 50%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        width: 100%;
+    }
+    .tv-discount-title > p {
+        font-size: 20px;
+        width: 100%;
+    }
+    .tv-dinning-title {
+        width: 100%;
+    }
+    .tv-dinning-title > p {
+        width: 100%;
+    }
+    .tv-deal-image {
+        height: 700px;
+    }
+    .tv-deal-banner {
+        width: 100%;
+    }
+    #tv-counter > div {
+        margin: 0 6px;
+    }
+    .tv-deal-title > p {
+        width: 100%;
+    }
+    .tv-clients-info > p {
+        font-size:17px;
+        width: 100%;
+    }
+    .tv-clients-counter {
+        margin-top: 20px;
+    }
+    .testimonial-slider {
+        width: 100%;
+    }
+    .tv-newsletter-title > p {
+        text-align: center;
+    }
+    .tv-newsletter-input {
+        width: 100%;
+    }
+    .subscribe-button {
+        right: 18px;
+    }
+    .tv-footer-title {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .tv-footer-info {
+        text-align: center;
+    }
+    .nav > li {
+        display: block;
+    }
+    .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+        background-color: transparent;
+        color: #000000;
+    }
+    .tv-about-img::after {
+        left: 3%;
+        top: 5%;
+        z-index: -1;
+    }
+    .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+        background-color: transparent;
+        color: #000000;
+    }
+    .tv-brand > h1 {
+        margin-top: 0px;
+    }
+    .tv-address > span{
+        font-size: 11px;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #ffffff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover{
+        color: #222222;
+    }
+}
+
+
+
+
+
+
+

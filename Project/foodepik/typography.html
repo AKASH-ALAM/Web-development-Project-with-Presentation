@@ -1,0 +1,447 @@
+<!--Template Name: FoodEpik
+File Name:typography.html
+Author Name: ThemeVault
+Author URI: http://www.themevault.net/
+License URI: http://www.themevault.net/license/-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="images/favicon.png"/>
+        <title>FoodEpik</title>
+        <!--<link href="css/scrolling-nav.css" rel="stylesheet" media="all">-->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
+        <link href="css/magnific-popup.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/color/tamarillo.css" title="tamarillo">
+        <link rel="stylesheet" type="text/css" href="css/color/pomegranate.css" title="pomegranate">
+        <link rel="stylesheet" type="text/css" href="css/color/hot-cinnamon.css" title="hot-cinnamon">
+        <link rel="stylesheet" type="text/css" href="css/color/egg-blue.css" title="egg-blue">
+        <link rel="stylesheet" type="text/css" href="css/color/west-side.css" title="west-side">
+        <link rel="stylesheet" type="text/css" href="css/color/dark-green.css" title="dark-green">
+        <!--Script Style-->
+        <script src = "js/jquery.min.js" type= "text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/custom.js" type="text/javascript"></script>
+        <!--Script Style Ends Here...-->
+    </head>
+    <body>
+        <div id="typography">
+            <!--Styleswitcher-->
+            <div class="colors-switcher">
+                <a id="show-panel" class="hide-panel"><img src="images/color-picker.png" class="switch-icon"></a>        
+                <ul class="colors-list">
+                    <li><a title="Tamarillo" onClick="setActiveStyleSheet('tamarillo');
+                            return false;" class="tamarillo"></a></li>
+                    <li><a title="Pomegranate" class="pomegranate" onClick="setActiveStyleSheet('pomegranate');
+                            return false;"></a></li>
+                    <li class="no-margin"><a title="Hot Cinnamon" onClick="setActiveStyleSheet('hot-cinnamon');
+                            return false;" class="hot-cinnamon"></a></li>
+                    <li><a title="Egg Blue" class="egg-blue" onClick="setActiveStyleSheet('egg-blue');
+                            return false;"></a></li>
+                    <li class="no-margin"><a title="West Side" class="west-side" onClick="setActiveStyleSheet('west-side');
+                            return false;"></a></li>
+                    <li><a title="Dark Green" class="dark-green" onClick="setActiveStyleSheet('dark-green');
+                            return false;"></a></li>
+                </ul>
+            </div>  
+            <!-- Styleswitcher End-->
+
+        <!--Header Section-->
+        <header>
+            <nav class="navbar navbar-default navbar-fixed-top tv-navbar-custom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12 col-xs-12">
+                            <div class="navbar-header text-center">
+                                <a href="home.html" class="navbar-brand tv-cafe-logo">FOOdEPIK</a>
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#tv-navbar">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-sm-12 col-xs-12">
+                            <div class="collapse navbar-collapse" id="tv-navbar">
+                                <ul class="nav navbar-nav text-center main-menu">
+                                    <li class="active"><a class="tv-menu" href="#myPage" data-toggle="dropdown">Home</a></li>
+                                    <li class=""><a href="#about" class="tv-menu" data-toggle="dropdown">About Us</a></li>
+                                    <li class=""><a href="#services" class="tv-menu" data-toggle="dropdown">Service</a></li>
+                                    <li class=""><a href="#menu" class="tv-menu" data-toggle="dropdown">Menu</a></li>
+                                    <li class=""><a href="#gallery" class="tv-menu" data-toggle="dropdown">Gallery</a></li>
+                                    <li class=""><a href="#blog" class="tv-menu" data-toggle="dropdown">Blog</a></li>
+                                    <li class="tv-drop-menu">
+                                        <a data-toggle="dropdown" aria-expanded="false" class="tv-menu">Our Elements<i class="fa fa-angle-down"></i></a>
+                                        <ul class="dropdown-menu tv-sub-menu" role="menu">
+                                            <li><a href="accordions.html"><i class="fa fa-plus-circle fa-sm"></i>Accordions</a></li>
+                                            <li><a href="alerts.html"><i class="fa fa-bell fa-sm" aria-hidden="true"></i>Alert</a></li>
+                                            <li><a href="buttons.html"><i class="fa fa-link fa-sm"></i>Button</a></li>
+                                            <li><a href="form-fields.html"><i class="fa fa-align-justify fa-sm"></i>Form Field</a></li>
+                                            <li><a href="grid.html"><i class="fa fa-th fa-sm"></i>Grid</a></li>
+                                            <li><a href="icons.html"><i class="fa fa-heart fa-sm"></i>Icons</a></li>
+                                            <li><a href="message.html"><i class="fa fa-comment fa-sm" aria-hidden="true"></i>Message</a></li>
+                                            <li><a href="tab.html"><i class="fa fa-columns fa-sm"></i>Tab</a></li>
+                                            <li><a href="typography.html"><i class="fa fa-font fa-sm"></i>Typography</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </nav>
+        </header>
+        <!--End Header Section-->
+
+            <!--        Banner Section-->
+            <div class="tv-inner-banner" id="banner" style="background: rgba(0, 0, 0, 0) url('images/bgbanner.png') no-repeat scroll center top / cover;">
+                <div class="container">
+                    <div class="row">
+                        <div class="tv-welcome-banner text-center">
+                            <h3 class="tv-area-title">Typography</h3>
+                            <h4 class="innerlink"><a href="home.html">Home</a> / Typography</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End Banner Section-->
+
+            <section class="tv-typography-block tv-section-padding">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <div class="tv-wrap-box clearfix">
+                                <div class="tv-box-inner-head"><h2>Heading Examples</h2></div>
+                                <h1 class="tv-head1">Heading 1</h1>
+                                <h2 class="tv-head2">Heading 2</h2>
+                                <h3 class="tv-head3">Heading 3</h3>
+                                <h4 class="tv-head4">Heading 4</h4>
+                                <h5 class="tv-head5">Heading 5</h5>
+                                <h6 class="tv-head6">Heading 6</h6>
+                            </div>
+                            <div class="row tv-offspace-20"> 
+                                <div class="col-md-12"> 
+                                    <div class="tv-select-code tv-wrap-box"> 
+                                        <div class="row"> 
+                                            <div class="col-md-12"> 
+                                                <div class="highlight"> 
+                                                    <pre><code class="language-html"><span class="tv-el-token tv-tag"><span class="tv-el-token tv-tag"><span class="tv-el-token tv-punctuation">&lt;</span>h1</span><span class="tv-el-token tv-punctuation">&gt;</span></span>Heading 1<span class="tv-el-token tv-tag"><span class="tv-el-token tv-tag"><span class="tv-el-token tv-punctuation">&lt;/</span>h1</span><span class="tv-el-token tv-punctuation">&gt;</span></span>
+<span class="tv-el-token tv-tag"><span class="tv-el-token tv-tag"><span class="tv-el-token tv-punctuation">&lt;</span>h2</span><span class="tv-el-token tv-punctuation">&gt;</span></span>Heading 2<span class="tv-el-token tv-tag"><span class="tv-el-token tv-tag"><span class="tv-el-token tv-punctuation">&lt;/</span>h2</span><span class="tv-el-token tv-punctuation">&gt;</span></span>
+<span class="tv-el-token tv-tag"><span class="tv-el-token tv-tag"><span class="tv-el-token tv-punctuation">&lt;</span>h3</span><span class="tv-el-token tv-punctuation">&gt;</span></span>Heading 3<span class="tv-el-token tv-tag"><span class="tv-el-token tv-tag"><span class="tv-el-token tv-punctuation">&lt;/</span>h3</span><span class="tv-el-token tv-punctuation">&gt;</span></span>
+<span class="tv-el-token tv-tag"><span class="tv-el-token tv-tag"><span class="tv-el-token tv-punctuation">&lt;</span>h4</span><span class="tv-el-token tv-punctuation">&gt;</span></span>Heading 4<span class="tv-el-token tv-tag"><span class="tv-el-token tv-tag"><span class="tv-el-token tv-punctuation">&lt;/</span>h4</span><span class="tv-el-token tv-punctuation">&gt;</span></span>
+<span class="tv-el-token tv-tag"><span class="tv-el-token tv-tag"><span class="tv-el-token tv-punctuation">&lt;</span>h5</span><span class="tv-el-token tv-punctuation">&gt;</span></span>Heading 5<span class="tv-el-token tv-tag"><span class="tv-el-token tv-tag"><span class="tv-el-token tv-punctuation">&lt;/</span>h5</span><span class="tv-el-token tv-punctuation">&gt;</span></span>
+<span class="tv-el-token tv-tag"><span class="tv-el-token tv-tag"><span class="tv-el-token tv-punctuation">&lt;</span>h6</span><span class="tv-el-token tv-punctuation">&gt;</span></span>Heading 6<span class="tv-el-token tv-tag"><span class="tv-el-token tv-tag"><span class="tv-el-token tv-punctuation">&lt;/</span>h6</span><span class="tv-el-token tv-punctuation">&gt;</span></span>
+</code></pre> 
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </div> 
+                                </div> 
+                            </div>
+                            <div class="tv-wrap-box clearfix">
+                                <div class="tv-box-inner-head"><h2>Paragraph Examples</h2></div>
+                                <h5 class="tv-element-sub-title">Simple Paragraph</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium nisi vel justo suscipit, vitae placerat lacus mollis. Fusce non enim lacus. Integer euismod velit vitae vestibulum luctus. Pellentesque non velit aliquet, dapibus magna ac, tempus nibh. Sed tristique facilisis posuere. Donec tempor tempus justo vitae dignissim. Vestibulum volutpat gravida fringilla. </p>
+                                <pre><code class=" language-html"><span class="tv-el-token tv-tag"><span class="tv-el-token tv-tag"><span class="tv-el-token tv-punctuation">&lt;</span>p</span><span class="tv-el-token tv-punctuation">&gt;</span></span>
+	Your paragraph text goes here.
+<span class="tv-el-token tv-tag"><span class="tv-el-token tv-tag"><span class="tv-el-token tv-punctuation">&lt;/</span>p</span><span class="tv-el-token tv-punctuation">&gt;</span></span>
+</code></pre>
+                                <h5 class="tv-element-sub-title tv-offspace-50">First letter highligted paragraph</h5>
+                                <p class="tv-highlite">Morem ipsum dolor sit amet, consectetur adipisicing elit. Amet consequuntur earum fuga incidunt nesciunt pariatur perspiciatis quidem veritatis? Autem fugiat hic id impedit molestias saepe. Consequuntur debitis mollitia quae quos!</p>
+                                <pre><code class="language-html"><span class="tv-el-token tv-tag"><span class="tv-el-token tv-tag"><span class="tv-el-token tv-punctuation">&lt;</span>p</span> <span class="tv-el-token tv-attr-name">class</span><span class="tv-el-token tv-attr-value"><span class="tv-el-token tv-punctuation">=</span><span class="tv-el-token tv-punctuation">"</span>tv-highlite<span class="tv-el-token tv-punctuation">"</span></span><span class="tv-el-token tv-punctuation">&gt;</span></span>
+	Your paragraph goes here.
+<span class="tv-el-token tv-tag"><span class="tv-el-token tv-tag"><span class="tv-el-token tv-punctuation">&lt;/</span>p</span><span class="tv-el-token tv-punctuation">&gt;</span></span>
+	</code></pre>
+                            </div>
+                            <div class="tv-wrap-box clearfix">
+                                <div class="tv-box-inner-head"><h2>Block quote</h2></div>
+                                <blockquote class="tv-cust-bq">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                                </blockquote>
+                                <pre><code class="language-html"><span class="tv-el-token tv-tag"><span class="tv-el-token tv-tag"><span class="tv-el-token tv-punctuation">&lt;</span>blockquote</span> <span class="tv-el-token tv-attr-name">class</span><span class="tv-el-token tv-attr-value"><span class="tv-el-token tv-punctuation">=</span><span class="tv-el-token tv-punctuation">"</span>tv-cust-bq<span class="tv-el-token tv-punctuation">"</span></span><span class="tv-el-token tv-punctuation">&gt;</span></span>
+	Your text goes here.
+<span class="tv-el-token tv-tag"><span class="tv-el-token tv-tag"><span class="tv-el-token tv-punctuation">&lt;/</span>blockquote</span><span class="tv-el-token tv-punctuation">&gt;</span></span>
+	</code></pre>
+                            </div>
+                            <div class="tv-wrap-box clearfix">
+                                <div class="row">
+                                    <div class="tv-box-inner-head"><h2>Text Formatting</h2></div>
+                                </div>
+                                <div class="row tv-offspace-30">
+                                    <div class="col-md-12">
+                                        <div class="box-text">
+                                            <span class="mark">highlighted text</span>
+                                            <span class="text-strike">strickethrough text</span>
+                                            <span class="text-underline">underlined text.</span>
+                                        </div>
+                                        <div class="tv-offspace-20 clearfix"></div>
+                                        <pre><code class="language-html"><span class="tv-el-token tv-tag"><span class="tv-el-token tv-tag"><span class="tv-el-token tv-punctuation">&lt;</span>span</span> <span class="tv-el-token tv-attr-name">class</span><span class="tv-el-token tv-attr-value"><span class="tv-el-token tv-punctuation">=</span><span class="tv-el-token tv-punctuation">"</span>mark<span class="tv-el-token tv-punctuation">"</span></span><span class="tv-el-token tv-punctuation">&gt;</span></span> highlighted text <span class="tv-el-token tv-tag"><span class="tv-el-token tv-tag"><span class="tv-el-token tv-punctuation">&lt;/</span>span</span><span class="tv-el-token tv-punctuation">&gt;</span></span>
+<span class="tv-el-token tv-tag"><span class="tv-el-token tv-tag"><span class="tv-el-token tv-punctuation">&lt;</span>span</span> <span class="tv-el-token tv-attr-name">class</span><span class="tv-el-token tv-attr-value"><span class="tv-el-token tv-punctuation">=</span><span class="tv-el-token tv-punctuation">"</span>text-strike<span class="tv-el-token tv-punctuation">"</span></span><span class="tv-el-token tv-punctuation">&gt;</span></span> strickethrough text <span class="tv-el-token tv-tag"><span class="tv-el-token tv-tag"><span class="tv-el-token tv-punctuation">&lt;/</span>span</span><span class="tv-el-token tv-punctuation">&gt;</span></span>
+<span class="tv-el-token tv-tag"><span class="tv-el-token tv-tag"><span class="tv-el-token tv-punctuation">&lt;</span>span</span> <span class="tv-el-token tv-attr-name">class</span><span class="tv-el-token tv-attr-value"><span class="tv-el-token tv-punctuation">=</span><span class="tv-el-token tv-punctuation">"</span>text-underline<span class="tv-el-token tv-punctuation">"</span></span><span class="tv-el-token tv-punctuation">&gt;</span></span> underline text <span class="tv-el-token tv-tag"><span class="tv-el-token tv-tag"><span class="tv-el-token tv-punctuation">&lt;/</span>span</span><span class="tv-el-token tv-punctuation">&gt;</span></span>
+	                                </code></pre>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tv-box-inner-head"><h2>Lists Formatting</h2></div>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <h5 class="tv-element-head-title-sm">Unordered</h5>
+                                    <ul class="tv-plain-list">
+                                        <li>Lorem ipsum dolor sit amet</li>
+                                        <li>Consectetur adipiscing elit</li>
+                                        <li>Nulla volutpat aliquam velit
+                                            <ul>
+                                                <li>Phasellus iaculis neque</li>
+                                                <li>Purus sodales ultricies</li>
+                                            </ul>
+                                        </li>
+                                        <li>Faucibus porta lacus fringilla vel</li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5 class="tv-element-head-title-sm">Ordered</h5>
+                                    <ol class="tv-plain-list">
+                                        <li>Lorem ipsum dolor sit amet</li>
+                                        <li>Consectetur adipiscing elit</li>
+                                        <li>Nulla volutpat aliquam velit
+                                            <ul>
+                                                <li>Phasellus iaculis neque</li>
+                                                <li>Ac tristique libero volutpat at</li>
+                                            </ul>
+                                        </li>
+                                        <li>Eget porttitor lorem</li>
+                                    </ol>
+                                </div>
+                            </div>
+
+
+                            <div class="row tv-offspace-50">
+                                <div class="tv-box-inner-head"><h2>Colors Formatting</h2></div>
+                                <div class="col-sm-6 row-flex-wrap">
+                                    <div class="col-md-3 background-primary tv-padd-tb-30">
+                                        <p class="text-uppercase">#f50431</p>
+                                    </div>
+                                    <div class="col"><code>.color-primary</code><br><code>.background-primary</code></div>
+                                </div>
+                                <div class="col-sm-6 row-flex-wrap">
+                                    <div class="col-md-3 background-info tv-padd-tb-30">
+                                        <p class="text-uppercase">#297ad3</p>
+                                    </div>
+                                    <div class="col"><code>.color-info</code><br><code>.background-info</code></div>
+                                </div>
+                                <div class="col-sm-6 row-flex-wrap">
+                                    <div class="col-md-3 background-success tv-padd-tb-30">
+                                        <p class="text-uppercase">#36a367</p>
+                                    </div>
+                                    <div class="col"><code>.color-success</code><br><code>.background-success</code></div>
+                                </div>
+                                <div class="col-sm-6 row-flex-wrap">
+                                    <div class="col-md-3 background-notice tv-padd-tb-30">
+                                        <p class="text-uppercase">#e9a00a</p>
+                                    </div>
+                                    <div class="col"><code>.color-notice</code><br><code>.background-notice</code></div>
+                                </div>
+                                <div class="col-sm-6 row-flex-wrap">
+                                    <div class="col-md-3 background-error tv-padd-tb-30">
+                                        <p class="text-uppercase">#e33131</p>
+                                    </div>
+                                    <div class="col"><code>.color-error</code><br><code>.background-error</code></div>
+                                </div>
+                                <div class="col-sm-6 row-flex-wrap">
+                                    <div class="col-md-3 background-black tv-padd-tb-30">
+                                        <p class="text-uppercase">#000000</p>
+                                    </div>
+                                    <div class="col"><code>.color-black</code><br><code>.background-black</code></div>
+                                </div>
+                                <div class="col-sm-6 row-flex-wrap">
+                                    <div class="col-md-3 background-one tv-padd-tb-30">
+                                        <p class="text-uppercase">#121212</p>
+                                    </div>
+                                    <div class="col"><code>.color-one</code><br><code>.background-one</code></div>
+                                </div>
+                                <div class="col-sm-6 row-flex-wrap">
+                                    <div class="col-md-3 background-two tv-padd-tb-30">
+                                        <p class="text-uppercase">#1d1d1d</p>
+                                    </div>
+                                    <div class="col"><code>.color-two</code><br><code>.background-two</code></div>
+                                </div>
+                                <div class="col-sm-6 row-flex-wrap">
+                                    <div class="col-md-3 background-three tv-padd-tb-30">
+                                        <p class="text-uppercase">#1d1d1d</p>
+                                    </div>
+                                    <div class="col"><code>.color-three</code><br><code>.background-three</code></div>
+                                </div>
+                                <div class="col-sm-6 row-flex-wrap">
+                                    <div class="col-md-3 background-four tv-padd-tb-30">
+                                        <p class="text-uppercase">#777777</p>
+                                    </div>
+                                    <div class="col"><code>.color-four</code><br><code>.background-four</code></div>
+                                </div>
+                                <div class="col-sm-6 row-flex-wrap">
+                                    <div class="col-md-3 background-five tv-padd-tb-30">
+                                        <p class="text-uppercase color-one">#f5f5f5</p>
+                                    </div>
+                                    <div class="col"><code>.color-five</code><br><code>.background-five</code></div>
+                                </div>
+                                <div class="col-sm-6 row-flex-wrap">
+                                    <div class="col-md-3 background-six tv-padd-tb-30">
+                                        <p class="text-uppercase color-one">#e1e1e1</p>
+                                    </div>
+                                    <div class="col"><code>.color-six</code><br><code>.background-six</code></div>
+                                </div>
+                                <div class="col-sm-6 row-flex-wrap">
+                                    <div class="col-md-3 background-seven tv-padd-tb-30">
+                                        <p class="text-uppercase color-one">#fafafa</p>
+                                    </div>
+                                    <div class="col"><code>.color-seven</code><br><code>.background-seven</code></div>
+                                </div>
+                                <div class="col-sm-6 row-flex-wrap">
+                                    <div class="col-md-3 background-eight tv-padd-tb-30">
+                                        <p class="text-uppercase color-one">#ffffff</p>
+                                    </div>
+                                    <div class="col"><code>.color-eight</code><br><code>.background-eight</code></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </section>
+
+            <!--NewsLetter Section-->
+            <section id="newsletter" class="tv-section-padding">
+                <div class="newsletter-bg-img" style="background: rgba(0, 0, 0, 0) url('images/Image46.png') no-repeat scroll center top / cover;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="tv-newsletter-title">
+                                    <h3>News Letter</h3>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="tv-newsletter-title">
+                                    <p>Sign up with your email to get updates fresh updates about our events...</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-xs-12">
+                                <div class="tv-newsletter-title">
+                                    <form>
+                                        <div id="subscribe-block">
+                                            <input class="form-control tv-newsletter-input" required="" value="" name="subscribe" placeholder="Enter Your Email Address" type="text">
+                                            <button class="btn subscribe-button" type="submit">Sign Up</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--NewsLetter Section Ends Here...-->
+
+            <!--Footer Section-->
+        <footer id="foodfooter" class="tv-section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="tv-footer-title">
+                            <h3>About us</h3>
+                        </div>
+                        <div class="tv-footer-info">
+                            <p> Quisque dignissim consectetur est, eget tempor ante. Aliquam hendrerit elementum dui non ultrices. In sagittis euismod mi sed euismod. Donec lacus elit,</p>
+                            <div class="tv-social">
+                                <div class="tv-social-navbar">
+                                    <a href=""><span class="fa fa-facebook-f"></span></a>
+                                    <a href=""><span class="fa fa-twitter"></span></a>
+                                    <a href=""><span class="fa fa-google-plus"></span></a>
+                                    <a href=""><span class="fa fa-linkedin"></span></a>
+                                    <a href=""><span class="fa fa-pinterest"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tv-clear-both col-md-4 col-sm-6 col-xs-12">
+                        <div class="tv-footer-title">
+                            <h3>Working Time</h3>
+                        </div>
+                        <div class="padding-0 col-md-6 col-sm-6 col-xs-6">
+                            <div class="tv-footer-info">
+                                <h5>Mon-Tue</h5>
+                                <h5>Wed</h5>
+                                <h5>Thu-Fri</h5>
+                                <h5>Sat</h5>
+                                <h5>Sun</h5>
+                                <h5>Holidays</h5>
+                            </div>
+                        </div>
+                        <div class="padding-0 col-md-6 col-sm-6 col-xs-6">
+                            <div class="tv-footer-info">
+                                <h5>09.00-22.00</h5>
+                                <h5>08.30-20.30</h5>
+                                <h5>9.45-19.55</h5>
+                                <h5>10.00-20.45</h5>
+                                <h5>08.00-19.10</h5>
+                                <h5>Holidays</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="tv-footer-title">
+                            <h3>Menu Categories</h3>
+                        </div>
+                        <div class="padding-0 col-md-6 col-sm-6 col-xs-6">
+                            <div class="tv-footer-info">
+                                <ul class="footer-menu">
+                                    <li>appetizers</li>
+                                    <li>breakfast</li>
+                                    <li>lunch</li>
+                                    <li>dinner</li>
+                                    <li>soups</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="padding-0 col-md-6 col-sm-6 col-xs-6">
+                            <div class="tv-footer-info">
+                                <ul class="footer-menu">
+                                    <li>appetizers</li>
+                                    <li>breakfast</li>
+                                    <li>lunch</li>
+                                    <li>dinner</li>
+                                    <li>soups</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--Footer Section Ends Here...-->
+
+            <!--Backlink Section-->
+            <section id="backlink" class="tv-section-padding">
+                <div class="tv-backlink-bg-color">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 col-xs-12">
+                                <div class="tv-backlink-info">
+                                    <!--Do not remove Backlink from footer of the template. To remove it you can purchase the Backlink !-->
+                                    <p>&copy; All right reserved. Designed by <a href="https://www.themevault.net" target="_blank">ThemeVault</a> </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Backlink Section Ends Here...-->
+
+            <a id="back-to-top" style="display: none;"><i class="tv-bounce fa fa-angle-double-up"></i></a>
+            <script src="js/styleswitcher.js"></script>
+        </div>
+    </body>
+</html>

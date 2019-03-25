@@ -1,0 +1,28 @@
+						STUDENT HOSTEL MANAGEMENT
+This project is based on providing the college's hostel informaton to he students who want to seek admission.
+This website also gives a glimpse of college like about the current news,updates,amendments made, etc.
+this website is wholesolelly based on PHP.Its uses Static as well as Dynamic Pages.					
+
+* Registration Page
+	-user can register with username and password (encrypted with MD5 function)
+	-two users with same mobile number are not allowed.
+	-numeric captcha is implemeted.
+
+* Student Login Page
+	-Student users registered with Registration Page can Login to view hidden information.
+	-Hidden information contains Mess Fees and Room Fees.
+	-Users can only view this page once they login.
+	-sessions are implemeted.
+
+* Admininstrator Login (Backend)
+	-New admin acounts cannot be made manually for security reasons.
+	-Admin account has priviledges to edit the contents of the Website.
+	-Admin password is encrypted with MD5 Function.
+
+*Session Modules
+	-All pages are protected by Session.
+	-Control Panel and Hostel Login pages cant be viewed by users without login. 
+
+*PHP Functions
+	-Body OnLoad functions are used to keep Processing of PHP files faster on the server.
+	-All pages are connected by DB

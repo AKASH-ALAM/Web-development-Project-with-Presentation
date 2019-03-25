@@ -1,0 +1,2237 @@
+/*
+Template Name: FoodEpik
+File Name: style.css
+Author Name: ThemeVault
+Author URI: http://www.themevault.net/
+License URI: http://www.themevault.net/license/
+*/
+
+/* FONTS*/
+@import '../fonts/font-awesome-4.7.0/css/font-awesome.min.css';
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900');
+/*font-family: 'Montserrat', sans-serif;*/
+
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+}
+.share_email {
+	padding: 0;
+	font-size: 12px;
+    margin-top: -17px;
+    color: red;
+}
+.accountForm{
+    margin-top: 80px;
+}
+.labelPadding{
+    padding: 10px 0;
+}
+a, button {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover,
+a:active,
+a:focus {
+    outline-offset: 0px;
+    outline-style: none;
+    outline-width: 0px;
+}
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn.focus:active, .btn:active:focus, .btn:focus {
+    //outline-color: inherit;
+    outline-offset: 0px;
+    outline-style: none;
+    outline-width: 0px;
+}/*
+/* typography */
+body {
+    margin: 0;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    background-color: #fff;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0
+}
+
+/*Spacing Value*/
+.tv-offspace-50 {
+    margin-top: 50px;
+}
+.tv-offspace-20 
+{
+    margin-top:20px;
+}
+.tv-offspace-30 {
+    margin-top: 30px;
+}
+.tv-offspace-40 {
+    margin-top: 40px;
+}
+.tv-offspace-60 {
+    margin-top: 60px;
+}
+.tv-offspace-left-15 {
+    margin-left: 15px;
+}
+.tv-offspace-bottom-20
+{
+    margin-bottom:20px;
+}
+.tv-offspace-bottom-30
+{
+    margin-bottom: 30px;
+}
+.tv-offspace-bottom-40
+{
+    margin-bottom: 40px;    
+}
+.tv-offspace-bottom-50
+{
+    margin-bottom: 50px;
+}
+.tv-offspace-bottom-60
+{
+    margin-bottom: 60px;    
+}
+.tv-offspace-bottom-70
+{
+    margin-bottom: 70px;    
+}
+
+/*Width-100*/
+.width-100
+{
+    width:100%;
+}
+
+/*Padding-0*/
+.padding-0{
+    padding:0;
+}
+
+/*Section Padding*/
+.tv-section-padding{
+    padding-top: 80px;
+}
+.tv-section-padding-10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.tv-section-padding-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.tv-section-padding-70 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.tv-section-padding-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.tv-section-padding-120 {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+/*Section Padding End Here*/
+
+/*Header Section CSS*/
+header {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    line-height: 65px;
+}
+.tv-address > span {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-left: 10px;
+}
+.tv-address > img {
+    width: 15px;
+}
+.tv-phone > img {
+    width: 15px;
+}
+.tv-phone > span {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-left: 5px;
+    margin-right: 15px;
+}
+#tvheader .btn.btn-book {
+    border-radius: 0;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: background 0.3s ease-in-out 0s;
+    background-color:#a31621;
+}
+.navbar-default {
+    background: rgba(63, 55, 53, 0.9) none repeat scroll 0 0;
+    border:none;
+    margin: 0;
+}
+.tv-menu {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    background-color: transparent;
+    color: #222222;
+}
+.navbar-default .navbar-brand {
+    color: #a31621;
+}
+.navbar-default .navbar-brand:hover
+{
+    color: #a31621;
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    background-color: transparent;
+    color: #a31621;
+}
+.navbar-brand {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+/*Header Section CSS Ends Here...*/
+
+/*Banner Section CSS*/
+.tv-area-title {
+    color: #ffffff;
+    font-size: 1.1em;
+    font-weight:600;
+    letter-spacing:5px;
+    text-transform: capitalize;
+}
+.tv-inner-banner{
+    height: 300px;
+    width: 100%;
+    position: relative;
+}
+.innerlink {
+    color: #ffffff;
+    font-size: 1.05em;
+    letter-spacing:5px;
+    margin-top: 10px;
+    font-weight: 600;
+    text-transform: capitalize;
+
+}
+.innerlink > a {
+    color: #050517;
+    text-decoration: none;
+}
+.tv-banner-image
+{
+    height: 600px;
+    position: relative;
+    width: 100%;
+}
+.tv-banner-image {
+    height: 500px;
+    position: relative;
+    width: 100%;
+}
+.tv-welcome-banner {
+    left: 50%;
+    position: absolute;
+    top:50%;
+    transform: translate(-50%, -50%);
+}
+.tv-welcome-title {
+    text-align: center;
+}
+.tv-welcome-title > h2 {
+    color: #ffffff;
+    display: inline-block;
+    font-size:40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.tv-welcome-title > p {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+#banner .btn.btn-book {
+    background: transparent none repeat scroll 0 0;
+    border-radius: 0;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 10px 20px;;
+    text-transform: uppercase;
+    transition: background 0.3s ease-in-out 0s;
+    font-family: open_sanssemibold;
+    margin-top:30px;
+    border:1px solid #ffffff;
+}
+#banner .btn.btn-book:hover {
+    background-color: #a31621;
+    border-color: #a31621;
+    color: #ffffff;
+}
+/*Banner Section CSS Ends Here...*/
+
+/*Special Section CSS*/
+.tv-special-color{
+    background-color:#a31621; 
+}
+.tv-special-info {
+    display: table;
+}
+.tv-special-block-icon {
+    display: table-cell;
+    vertical-align: middle;
+}
+.tv-special-block-title > h4 {
+    color: #ffffff;
+    font-size:15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+.tv-special-block-desc > p {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+/*Special Section CSS Ends Here...*/
+
+/*About Section CSS*/
+.tv-about-img {
+    /*border: 2px solid #a31621;*/
+    position: relative;
+}
+.tv-about-img::after {
+    border: 2px solid #a31621;
+    content: "";
+    height: 100%;
+    left: 5%;
+    position: absolute;
+    top: 7%;
+    width: 100%;
+    z-index: -1;
+}
+/*.tv-img-border-effect {
+    margin-left: -2px;
+    margin-top: -40px;
+    padding: 20px 20px 20px 0;
+}*/
+.tv-section-title > span {
+    color: #707070;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.tv-section-title > h2 {
+    border-bottom: 3px solid #a31621;
+    display: inline-block;
+    font-size:30px;
+    font-weight: 700;
+    padding: 10px 0;
+    position: relative;
+    text-transform: capitalize;
+}
+.tv-section-title > h2:before {
+    content:""; 
+    display:block; 
+    position:absolute; 
+    left:0; 
+    bottom:2px; 
+    width:100%; 
+    height:1px;                          
+    background:#a31621;
+}
+.tv-box-inner-head 
+{
+    margin-bottom: 20px;
+}
+.tv-box-inner-head > h2
+{
+    border-bottom: 3px solid #a31621;
+    display: inline-block;
+    font-size:1.5em;
+    font-weight: 700;
+    padding: 10px 0;
+    position: relative;
+    text-transform: capitalize;
+}
+.tv-box-inner-head > h2:before{
+    content:""; 
+    display:block; 
+    position:absolute; 
+    left:0; 
+    bottom:2px; 
+    width:100%; 
+    height:1px;                          
+    background:#a31621;
+}
+.tv-about-info > span {
+    font-weight: 700;
+}
+.tv-about-info > h2 {
+    border-bottom: 3px solid #a31621;
+    display: inline-block;
+    font-family: open_sansbold;
+    font-size: 35px;
+    padding: 10px 0;
+    position: relative;
+    text-transform: capitalize;
+}
+.tv-about-info > h2:before {
+    content:""; 
+    display:block; 
+    position:absolute; 
+    left:0; 
+    bottom:5px; 
+    width:100%; 
+    height:1px;                          
+    background:#a31621;
+}
+.tv-about-info > p {
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 20px 0;
+    text-transform: capitalize;
+    width: 90%;
+}
+.tv-about-info p:nth-of-type(2) {
+    font-size: 13px;
+    width: 100%;
+}
+#about .btn.btn-find {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #000000;
+    border-radius: 0;
+    color: #000000;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: background 0.3s ease-in-out 0s;
+}
+#about .btn.btn-find:hover {
+    background-color: #a31621;
+    border-color: #a31621;
+    color: #ffffff;
+}
+/*About Section CSS Ends Here...*/
+
+/*Services Section CSS...*/
+.tv-services-block-icon i {
+    font-size: 25px;
+}
+.tv-services-block-icon {
+    display: inline-block;
+    vertical-align: middle;
+}
+.tv-services-block-title {
+    display: inline-block;
+}
+.tv-services-block-title > h3 {
+    color: #000000;
+    font-size:13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+.tv-services-block-desc > p {
+    color: #000000;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.tv-services-block-icon > img {
+    width: 30px;
+}
+.tv-services-info {
+    margin-bottom: 20px;
+}
+.tv-services-info:nth-of-type(3) {
+    margin-bottom: 0px;
+}
+.tv-services-desc > p {
+    margin-top: 30px;
+    color: #000000;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+#services .btn.btn-find {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #000000;
+    border-radius: 0;
+    color: #000000;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: background 0.3s ease-in-out 0s;
+}
+#services .btn.btn-find:hover {
+    background-color: #a31621;
+    border-color: #a31621;
+    color: #ffffff;
+}
+/*Services Section CSS Ends Here...*/
+
+/*Menu Section CSS...*/
+.tv-menu-feautre > h4 {
+    color: #a31621;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+.tv-menu-title > h4 {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.tv-menu-title > p {
+    font-size: 13px;
+    color:#888;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    text-transform: capitalize;
+    width: 80%;
+}
+.tv-menu-img {
+    /* border: 1px solid #a31621; */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.tv-menu-block {
+    margin-top:20px;
+    display: inline-block;
+    width: 100%;
+}
+.tv-menu-title a{
+    text-decoration: none;
+    
+}
+.tv-menu-title a:hover{
+    color: red;
+}
+.tv-menu-title > span {
+    float: right;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.tv-menu-block:nth-of-type(1) {
+    margin-top: 0px;
+}
+#menu .btn.btn-view {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #000000;
+    border-radius: 0;
+    color: #000000;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: background 0.3s ease-in-out 0s;
+}
+#menu .btn.btn-view:hover {
+    background-color: #a31621;
+    border-color: #a31621;
+    color: #ffffff;
+}
+.tv-view-button {
+    text-align: center;
+}
+/*Menu Section CSS Ends Here...*/
+
+/*Open Section CSS*/
+.tv-open-image {
+    height: 500px;
+    position: relative;
+    width: 100%;
+}
+.tv-open-title {
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.tv-bg-section-title > span
+{
+    color: #ffffff;
+    display: block;
+    font-size: 1.05em;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.tv-bg-section-title > h2::before {
+    background: #a31621 none repeat scroll 0 0;
+    bottom: 2px;
+    color: #000000;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+.tv-bg-section-title {
+    margin-bottom: 40px;
+}
+.tv-bg-section-title > h2 {
+    border-bottom: 3px solid #a31621;
+    color:#ffffff;
+    display: inline-block;
+    font-size: 2.5em;
+    font-weight: 700;
+    padding: 10px 0;
+    position: relative;
+    text-transform: capitalize;
+}
+.tv-open-title > p {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.tv-open-title > p:nth-of-type(2) {
+    margin-bottom: 0px;
+}
+#open .btn.btn-book {
+    border-radius: 0;
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: background 0.3s ease-in-out 0s;
+    background:#a31621;
+}
+#open .btn.btn-book:hover {
+    background-color: transparent;
+    border-color: #ffffff;
+    color: #ffffff;
+}
+.color-change {
+    color: #ffffff !important;
+    margin-bottom: 40px;
+}
+/*Open Section CSS Ends Here...*/
+
+/*Dishes Section*/
+.tv-dishes-clear
+{
+    clear:both;
+}
+.tv-dishes-info {
+    margin-top: 10px;
+}
+.tv-dishes-info > h5 {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.tv-dishes-info > span {
+    float: right;
+    font-size: 14px;
+    font-weight: 600;
+}
+.tv-dishes-info > p {
+    font-size:13px;
+    color:#888;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+.tv-dishes-img {
+    margin-top: 40px;
+}
+#dishes .btn.btn-item{
+    background: transparent none repeat scroll 0 0;
+    border-radius: 0;
+    color: #000000;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: background 0.3s ease-in-out 0s;
+    border:1px solid #000000;
+}
+#dishes .btn.btn-item:hover {
+    background-color: #a31621;
+    border-color: #a31621;
+    color: #ffffff;
+}
+.tv-allitems-button {
+    text-align: center;
+}
+/*Dishes Section CSS Ends Here...*/
+
+/*Discount Section CSS*/
+.tv-discount-image
+{
+    height: 400px;
+    position: relative;
+    width: 100%;
+}
+.tv-discount-title {
+    left: 20%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-20%, -50%);
+}
+.tv-discount-title > p {
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: capitalize;
+    width: 70%;
+}
+.tv-discount-title span {
+    color: #a31621;
+    font-size: 45px;
+}
+/*Discount Section CSS Ends Here...*/
+
+/*Reservation Section CSS*/
+#reservation .form-control:focus {
+    border-bottom-color:#a31621;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.00) inset, 0 0 0px rgba(0,0,0,0);
+    outline: 0 none;
+}
+#reservation .tv-reservation-input {
+    border-color: currentcolor currentcolor #000000;
+    font-size: 13px;
+    letter-spacing: 1px;
+    border-image: none;
+    border-radius: 0;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+    box-shadow: none;
+    padding: 6px 0;
+}
+#reservation .form-control::placeholder {
+    color: #999;
+    font-size: 0.95em;
+    font-weight: 500;
+    opacity: 1;
+}
+.tv-reservation-img {
+    margin-top: 40px;
+}
+.tv-reservation-form {
+    margin-top: 40px;
+}
+#reservation .form-group {
+    margin-bottom: 30px;
+}
+.tv-reservation-block {
+    position: relative;
+}
+.tv-reservation-block > i {
+    font-size: 15px;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+}
+.tv-reservation-details > p {
+    color: #999;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 70%;
+    letter-spacing: 1px;
+}
+#reservation .btn.btn-reservation{
+    background: transparent none repeat scroll 0 0;
+    border-radius: 0;
+    color: #000000;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 60px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: background 0.3s ease-in-out 0s;
+    border:1px solid #000000;
+}
+#reservation .btn.btn-reservation:hover {
+    background-color: #a31621;
+    border-color: #a31621;
+    color: #ffffff;
+}
+.tv-reservation-button
+{
+    text-align: center;
+}
+/*Reservation Section CSS Ends Here...*/
+
+/*Reservation Section CSS*/
+.overlay {
+    background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 0.5s ease 0s;
+    width: 100%;
+}
+.addoverlay {
+    color: #3b3115;
+    font-size: 20px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.gallery-box:hover .overlay {
+    opacity: 1;
+}
+.gallery-box{
+    position: relative;
+    margin-top:30px;
+}
+/*Reservation Section CSS Ends Here...*/
+
+/*Dinning Section CSS*/
+.tv-dinning-image
+{
+    height: 400px;
+    position: relative;
+    width: 100%;
+}
+.tv-dinning-title {
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.tv-dinning-title > h3 {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 2.5em;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.tv-dinning-title > p {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 60%;
+}
+/*Dinning Section CSS Ends Here...*/
+
+/*Staff Section*/
+#staff .tv-social-navbar > a > span {
+    border: 1px solid #000000;
+    border-radius: 3px;
+    color: #000000;
+    display: inline-block;
+    font-size: 10px;
+    height: 22px;
+    line-height: 20px;
+    margin: 0 10px;
+    width: 22px;
+}
+#staff .tv-social-navbar > a > span:hover {
+    background: #a31621 none repeat scroll 0 0;
+    border-color: #a31621;
+    color: #ffffff;
+}
+.tv-staff-info {
+    text-align: center;
+}
+.tv-staff-info > h4 {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+.tv-staff-info > span {
+    color: #707070;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.tv-staff-image {
+    margin-top: 40px;
+}
+.tv-staff-info > p {
+    color: #999;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+/*Staff Section CSS Ends Here...*/
+
+/*Deal Section CSS*/
+.tv-deal-image
+{
+    height: 400px;
+    position: relative;
+    width: 100%;
+}
+.tv-deal-banner{
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+#tv-counter div > span {
+    background: #ffffff none repeat scroll 0 0;
+    display: inline-block;
+    font-size:20px;
+    font-weight: 600;
+    padding: 0 10px;
+}
+#tv-counter > div {
+    background: #ffffff none repeat scroll 0 0;
+    display: inline-block;
+    padding: 10px;
+    margin:0px 10px;
+}
+#tv-counter > div > div {
+    font-size:8px;
+    font-weight:700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.tv-deal-title > h3 {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 3em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.tv-deal-title > p {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 20px auto;
+    width: 60%;
+}
+.tv-cheese {
+    display: inline-block;
+    margin-top:40px;
+}
+.tv-cheese > p {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 3em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.tv-cheese > span {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 1.04em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.tv-cheese > h5 {
+    color: #ffffff;
+    font-size:15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+/*Deal Section CSS Ends Here...*/
+
+/*Clients Section*/
+.tv-clients-banner
+{
+    height: auto;
+    position: relative;
+    width: 100%;
+}
+.tv-clients-info {
+    display: inline-block;
+}
+.tv-clients-info > p {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 58%;
+}
+.border {
+    border-bottom: 2px dashed #ffffff;
+    height: 2px;
+    margin: 40px auto;
+    position: relative;
+    width: 30%;
+}
+.tv-clients-counter{
+    text-align: center;
+}
+
+.tv-clients-counter > p {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.tv-clients-counter > h4 {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.tv-clients-block {
+    border: 2px dashed #ffffff;
+    color: #ffffff;
+    padding: 40px 10px;
+    text-align: center;
+    margin-top:60px;
+}
+.tv-clients-block > p {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.tv-clients-block > h4 {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 20px 0;
+}
+/*Clients Section CSS Ends Here...*/
+
+/*Testimonials Section CSS*/
+.testimonial-slider {
+    line-height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 80%;
+}
+.testimonial-slider > i {
+    color: #a31621;
+    font-size: 30px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+#myCarousel .carousel-indicators li {
+    background-color: #a31621;
+    border: 1px solid #a31621;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    height: 3px;
+    margin: 1px;
+    text-indent: -999px;
+    width: 30px;
+}
+#myCarousel .carousel-indicators .active {
+    background-color: #999;
+    border: 1px solid #999;
+    border-radius: 10px;
+    height: 3px;
+    width: 30px;
+}
+#testimonials .carousel-indicators {
+    bottom: 0px;
+}
+#testimonials .carousel.slide {
+    padding: 50px 0;
+}
+.testimonial-slider > h3 {
+    font-size:20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.testimonial-slider > p {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+/*Testimonials Section CSS Ends Here...*/
+
+/*Blog Section CSS*/
+.tv-blog-img {
+    margin-top: 40px;
+    /*position: relative;*/
+}
+.tv-blog-info {
+    left:50%;
+    position: absolute;
+    top:50%;
+    transform: translate(-50%,-50%);
+    width:100%;
+}
+.tv-blog-info > span {
+    color: #ffffff;
+    font-size: 1.05em;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+.tv-blog-info > h4 {
+    color: #ffffff;
+    font-size:20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.tv-blog-info > p {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+#blog .btn.btn-read {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #ffffff;
+    border-radius: 0;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    transition: background 0.3s ease-in-out 0s;
+}
+#blog .btn.btn-read:hover {
+    background-color: #000000;
+    border-color: #000000;
+    color: #ffffff;
+}
+/*Blog Section CSS Ends Here...*/
+
+/*NewsLetter Section*/
+.newsletter-bg-img
+{
+    height: auto;
+    position: relative;
+    width: 100%;
+}
+.tv-newsletter-title {
+    padding: 40px 0;
+}
+.tv-newsletter-title > h3 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.tv-newsletter-title > p {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.tv-newsletter-input {
+    border: 0 none;
+    border-radius: 0;
+    position: relative;
+    height: 34px;
+    width: 80%;
+}
+.subscribe-button {
+    border: 0 none;
+    border-radius: 0;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 7px 15px;
+    position: absolute;
+    right: 90px;
+    text-transform: uppercase;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #a31621;
+}
+#newsletter .form-control::placeholder {
+    color: #999;
+    font-size:10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    opacity: 1;
+}
+.subscribe-button.focus, .subscribe-button:focus, .subscribe-button:hover {
+    color: #ffffff;
+    background-color: #000000;
+    text-decoration: none;
+}
+.form-control:focus {
+    border-color: transparent;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.0) inset, 0 0 0px rgba(0,0,0,0);
+    outline: 0 none;
+}
+/*NewsLetter Section CSS Ends Here...*/
+
+/*Footer Section CSS*/
+.tv-footer-title > h3 {
+    border-bottom: 3px solid #a31621;
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    position: relative;
+    text-transform: capitalize;
+}
+.tv-footer-info > p {
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.tv-footer-title > h3::before {
+    background: #a31621 none repeat scroll 0 0;
+    bottom: 2px;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+#foodfooter .tv-social-navbar > a > span {
+    border: 1px solid #000000;
+    border-radius: 3px;
+    color: #000000;
+    display: inline-block;
+    font-size: 10px;
+    height: 22px;
+    line-height: 20px;
+    margin: 0 10px;
+    width: 22px;
+    text-align: center;
+}
+#foodfooter .tv-social-navbar > a > span:hover {
+    background: #a31621 none repeat scroll 0 0;
+    border-color: #a31621;
+    color: #ffffff;
+}
+.tv-footer-info{
+    margin-top: 20px;
+}
+#foodfooter ul {
+    color: #a31621;
+}
+.footer-menu > li {
+    color: #000000;
+    font-size: 12px;
+    font-weight:600;
+    letter-spacing: 1px;
+    line-height: 29px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.tv-backlink-info a {
+    text-decoration: none;
+}
+.tv-footer-info > h5 {
+    color: #000000;
+    font-size:12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 23.5px;
+    text-transform: uppercase;
+}
+.footer-menu > li > a:hover {
+    color: #a31621;
+    text-decoration: none;
+}
+/*Footer Section CSS Ends Here...*/
+
+/*Backlink Section CSS*/
+.tv-backlink-bg-color
+{
+    background-color: #000000;
+}
+.tv-backlink-info p {
+    color: #ffffff;
+    letter-spacing:2px;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+}
+.tv-backlink-info a {
+    color: #a31621;
+}
+/*Backlink Section CSS Ends Here...*/
+
+#back-to-top::after {
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    bottom: 0;
+    content: "";
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+}
+#back-to-top i {
+    font-size: 1.65em;
+    vertical-align: middle;
+}
+.tv-bounce {
+    animation: 0.5s linear 0s normal none infinite running bounce;
+    display: inline-block;
+    position: relative;
+}
+#back-to-top {
+    background-color: #a31621;
+    bottom: 50px;
+    color: #fff;
+    cursor: pointer;
+    height: 50px;
+    line-height: 40px;
+    position: fixed;
+    right: 20px;
+    text-align: center;
+    width: 35px;
+}
+@keyframes bounce {
+    0% {
+        bottom: 0;
+    }
+    50% {
+        bottom: -0.2em;
+    }
+    70% {
+        bottom: -0.3em;
+    }
+    100% {
+        bottom: 0;
+    }
+}
+
+.tv-gallery-effect {
+    background-color: #000;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.tv-gallery-effect * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+.tv-gallery-effect:before,
+.tv-gallery-effect:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+    background-color: #a31621;
+    content: '';
+    opacity: 0.4;
+    z-index: 1;
+}
+.tv-gallery-effect:before {
+    -webkit-transform: skew(45deg) translateX(-155%);
+    transform: skew(45deg) translateX(-155%);
+}
+.tv-gallery-effect:after {
+    -webkit-transform: skew(45deg) translateX(155%);
+    transform: skew(45deg) translateX(155%);
+}
+.tv-gallery-effect:hover > img,
+.tv-gallery-effect.hover > img {
+    opacity: 0.5;
+}
+.tv-gallery-effect:hover:before,
+.tv-gallery-effect.hover:before {
+    -webkit-transform: skew(45deg) translateX(-55%);
+    transform: skew(45deg) translateX(-55%);
+}
+.tv-gallery-effect:hover:after,
+.tv-gallery-effect.hover:after {
+    -webkit-transform: skew(45deg) translateX(55%);
+    transform: skew(45deg) translateX(55%);
+}
+/*End*/
+
+.view {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+    background:transparent none repeat scroll 0 0;
+}
+.view .mask,.view .content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.view img {
+    display: block;
+    position: relative;
+}
+.view-fifth img {
+    transition: all 0.5s ease-in-out;
+}
+.view-fifth .mask {
+    background-color: #a31621;
+    transform: translateX(-600px);
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+    transition: all 0.5s ease-in-out;
+}
+.view-fifth:hover .mask {
+    transform: translateX(0px);
+}
+/**** Start Color Switcher ****/
+
+
+.colors-switcher {
+    width:100px;
+    padding:20px 18px 14px 20px;
+    position:fixed;
+    z-index:1993;
+    top:150px;
+    right:0;
+    background-color:#fff;
+    border-radius:2px 0 0 2px;
+    border:1px solid rgba(0,0,0,.1);
+    -webkit-transition:all .4s ease-in-out;
+    -moz-transition:all .4s ease-in-out;
+    -ms-transition:all .4s ease-in-out;
+    -o-transition:all .4s ease-in-out;
+    transition:all .4s ease-in-out;
+}
+.colors-switcher > p {
+    font-size: 11px;
+    line-height: 0;
+}
+.colors-switcher #show-panel {
+    position:absolute;
+    left:-38px;
+    top:15px;
+    width:38px;
+    height:38px;
+    z-index:1992;
+    display:block;
+    background-color:#fff;
+    border-radius:2px 0 0 2px;
+    border:1px solid rgba(0,0,0,.1);
+    border-right:none;
+    cursor: pointer;
+    text-align: center;
+}
+.colors-switcher #show-panel .switch-icon {
+    margin-top:6px;
+}
+.colors-switcher .colors-list {
+    margin:0;
+    padding:0;
+}
+.colors-switcher .colors-list li {
+    float:left;
+    display:block;
+    margin-bottom:2px;
+    margin-right:6px;
+}
+.colors-switcher .colors-list li a {
+    display:inline-block;
+    width:24px;
+    height:24px;
+    border-radius:2px;
+    transition:all 0.2s linear;
+    -moz-transition:all 0.2s linear;
+    -webkit-transition:all 0.2s linear;
+    -o-transition:all 0.2s linear;
+    cursor: pointer;
+}
+.colors-switcher .colors-list li a:hover {
+    box-shadow:inset 0 0 6px rgba(0,0,0,.4);
+}
+.colors-switcher .colors-list a.tamarillo {
+    background-color:#a31621;
+}
+.colors-switcher .colors-list a.pomegranate{
+    background-color:#eb4511;
+}
+.colors-switcher .colors-list a.hot-cinnamon {
+    background-color:#cd671d;
+}
+.colors-switcher .colors-list a.egg-blue {
+    background-color:#08bbb7;
+}
+.colors-switcher .colors-list a.west-side {
+    background-color:#FFA111;
+}
+.colors-switcher .colors-list a.dark-green {
+    background-color:#49A239;
+}
+
+
+/**Dropdown CSS*/
+.tv-drop-menu.open > a, .tv-drop-menu.open > a:focus, .tv-drop-menu.open > a:hover {
+    background-color: transparent !important;
+    color: #ffffff !important;
+}
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+    background-color: #a31621;
+    color: #ffffff !important;
+    text-decoration: none;
+}
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    margin:0 !important;
+    left: 100%;
+}
+.dropdown-submenu {
+    position: relative;
+}
+.tv-sub-menu {
+	/* background: #222222; */
+	border-top: 3px solid #a31621;
+	/* box-shadow: none; */
+	/* min-width: 200px; */
+	padding: 0 10px;
+	/* left: 15px; */
+	/* margin-top: 2px !important; */
+	/* border-radius: 0; */
+	border-width: 3px 0 0 0;
+	width: 300px;
+}
+.tv-sub-menu li a {
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 1px;
+    padding:18px;
+    position: relative;
+    text-transform: uppercase;
+    transition: all 0.4s ease 0s;
+}
+.tv-drop-menu a > i {
+    margin-left: 5px;
+    line-height: 0;
+}
+.fa-sm {
+    margin-right: 10px;
+}
+.Navigation-list {
+    display: block !important;
+}
+
+.Navigation-list.is-hidden {
+    display: none !important;
+}
+/*End Dropdown CSS*/
+
+/*elements related css*/
+pre {
+    line-height: 1.7;
+    border-radius: 0;
+}
+.tv-wrap-box{
+    margin-bottom: 50px;
+}
+.tv-element-head-title::after {
+    background-color: #f50431;
+    bottom: -1px;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 10%;
+}
+.tv-element-sub-title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-top:20px;
+}
+.tv-element-head-title-sm {
+    color: #2d3e50;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.tv-tag {
+    color: #ea6055;
+}
+.tv-attr-name {
+    color: #669900;
+}
+.tv-attr-value {
+    color: #0077aa;
+}
+.tv-punctuation {
+    color: #999;
+}
+.tv-head1, .tv-head2, .tv-head3, .tv-head4, .tv-head5, .tv-head6 {
+    margin-bottom: 15px;
+}
+.tv-head1 {
+    font-size: 32px; 
+    color: #000000;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.tv-head2 {
+    font-size: 28px; 
+    color: #000000;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.tv-head3 {
+    font-size: 24px; 
+    color: #000000;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.tv-head4 {
+    font-size: 20px; 
+    font-weight: 600;
+    color: #000000;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.tv-head5 {
+    font-size: 18px; 
+    font-weight: 600;
+    color: #000000;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.tv-head6 {
+    font-size: 14px; 
+    font-weight: 600;
+    color: #000000;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.tv-highlite::first-letter {
+    float: left;
+    font-size: 50px;
+    margin-right: 5px;
+}
+.tv-plain-list, .tv-plain-list ul {
+    padding-left: 40px;
+}
+.tv-plain-list > li {
+    color: #2d3e50;
+    font-size: 1.05em;
+    letter-spacing: 1px;
+    line-height: 32px;
+}
+.text-thin {
+    font-weight: normal;
+}
+mark, .mark {
+    background-color: #ea6055;
+    color: #fff;
+    display: inline-block;
+    padding: 0.2em 0.3em;
+    vertical-align: middle;
+}
+.text-strike {
+    text-decoration: line-through;
+}
+.text-underline {
+    text-decoration: underline;
+}
+.row-flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.row-flex-wrap p {
+    margin: 0;
+    color: #eaeaea;
+}
+.row-flex-wrap code {
+    font-size: 13px;
+}
+.col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.background-primary {
+    background-color: #f50431;
+}
+.color-primary {
+    color: #f50431 !important;
+}
+.background-info {
+    background-color: #297ad3;
+}
+.color-success {
+    color: #297ad3 !important;
+}
+.background-success {
+    background-color: #36a367;
+}
+.color-notice {
+    color: #e9a00a !important;
+}
+.background-notice {
+    background-color: #e9a00a;
+}
+.color-error {
+    color: #e33131 !important;
+}
+.background-error {
+    background-color: #e33131;
+}
+.color-info {
+    color: #36a367 !important;
+}
+.background-black {
+    background-color: #000000;
+}
+.color-black {
+    color: #000000 !important;
+}
+.background-one {
+    background-color: #121212;
+}
+.color-one {
+    color: #121212 !important;
+}
+.background-two {
+    background-color: #1d1d1d;
+}
+.color-two {
+    color: #1d1d1d !important;
+}
+.background-three {
+    background-color: #2d3e50;
+}
+.color-three {
+    color: #2d3e50 !important;
+}
+.background-four {
+    background-color: #777777;
+}
+.color-four {
+    color: #777777 !important;
+}
+.background-five {
+    background-color: #f5f5f5;
+}
+.color-five {
+    color: #f5f5f5 !important;
+}
+.background-six {
+    background-color: #e1e1e1;
+}
+.color-six {
+    color: #e1e1e1 !important;
+}
+.background-seven {
+    background-color: #fafafa;
+    border: 1px solid #e9ecef;
+}
+.color-seven {
+    color: #fafafa !important;
+}
+.background-eight {
+    background-color: #ffffff;
+    border: 1px solid #e9ecef;
+}
+.color-eight {
+    color: #ffffff !important;
+}
+.tv-padd-tb-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/*icons*/
+.tv-select-code.text-center > p {
+    font-size: 1.05em;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.tv-breadcrumbs {
+    margin-top: 5px;
+}
+.et-examples .box1 {
+    border: 1px solid #e5e5e5;
+    font-size: 13px;
+    margin: -1px 0 0 -1px;
+    padding: 0;
+    color: #2d3e50;
+}
+.et-examples .box1 > span {
+    border-right: 1px solid #f1f1f1;
+    display: inline-block;
+    font-size: 32px;
+    line-height: 70px;
+    margin-right: 5px;
+    min-height: 70px;
+    min-width: 70px;
+    text-align: center;
+}
+.icon-short-code {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.box > .icon__left, .box > .icon__right, .box > .icon__body {
+    direction: ltr;
+    display: table-cell;
+    padding: 0;
+    vertical-align: top;
+}
+.box .icon__middle {
+    vertical-align: middle;
+}
+.icon-short-code .icon__body {
+    color: #1e1e1e;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+.icon-short-code .fa {
+    color:#ea6055;
+    font-size: 30px;
+    height: 60px;
+    width: 60px;
+}
+.icon-short-code .icon__body span {
+    color: #616161;
+    display: block;
+    font-size: 12px;
+}
+.tv-select-code .icon-heart{
+    color: #f50431;
+    font-weight: 600;
+}
+/*message*/
+.tv-alert-info {
+    border-color: #9ecdfc;
+    color: #297ad3;
+}
+.tv-alert-success {
+    border-color: #a9e2c2;
+    color: #36a367;
+}
+.tv-alert-notice{
+    border-color: #f9ce75;
+    color: #e9a00a;
+}
+.tv-alert-error {
+    border-color: #ffbbbb;
+    color: #e33131;
+}
+/*feature icon*/
+.elements-feature-block .row > .col-md-4:nth-of-type(2) .tv-service-block, .elements-feature-block .row > .col-md-4:nth-of-type(4) .tv-service-block, .elements-feature-block .row > .col-md-4:nth-of-type(6) .tv-service-block {
+    box-shadow: 0 0 35px 0 #e9e9e9; 
+}
+.tv-service-top-left, .tv-service-top-right {
+    display: table-cell;
+    vertical-align: top;
+}
+.tv-service-top-right {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.tv-service-top-left i {
+    font-size: 28px;
+}
+.tv-service-top-right > h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+/*accordion*/
+.panel {
+    border: none;
+    box-shadow: none;
+}
+.panel-body {
+    color: #2d3e50;
+    font-weight: normal;
+    line-height: 24px;
+    font-size: 1.05em;
+    letter-spacing: 0.5px;
+}
+.panel-default > .panel-heading {
+    background-color: #fcfcfc;
+    color: #1e1e1e;
+    padding: 14px 20px;
+    border: 1px solid #ddd;
+    border-radius: 0;
+}
+.panel-title {
+    font-size: 14px;
+    font-weight: 500;
+}
+.panel-group .panel-heading + .panel-collapse > .list-group, .panel-group .panel-heading + .panel-collapse > .panel-body {
+    border-top: none;
+}
+
+.panel-group .panel + .panel {
+    margin-top: 10px;
+}
+#accordion-layout-icon  a::after {
+    color: #999;
+    content: "";
+    font-family: "FontAwesome";
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    height: 15px;
+    line-height: 15px;
+    margin-top: -8px;
+    position: absolute;
+    right: 10px;
+    text-align: center;
+    text-transform: none;
+    top: 50%;
+    transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
+    width: 15px;
+}
+#accordion-layout-icon  a::after:hover {
+    color: #111;  
+}
+#accordion-layout-icon  a[aria-expanded="true"]::after {
+    color: #111;
+    content: "";
+}
+#accordion-layout-icon  a {
+    display: block;
+    position: relative;
+    transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
+}
+/*tabs*/
+#sectiontab .tv-tpl-tabs li.active a {
+    color: #000;
+}
+#sectiontab .nav > li > a {
+    border-radius: 0;
+    color: #777;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 10px 15px;
+    position: relative;
+    text-transform: uppercase;
+}
+#sectiontab .tv-tab-content {
+    color: #2d3e50;
+    letter-spacing: 0.08em;
+    line-height: 1.8;
+    padding: 30px 0;
+}
+#sectiontab .tv-tpl-tabs-min {
+    border: medium none;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#sectiontab .tv-tpl-tabs-min > li > a {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    color: #000;
+    padding: 6px 20px 5px;
+    text-decoration: none;
+}
+#sectiontab .tv-tpl-tabs-min li.active a, .tv-tpl-tabs-min li.active a:hover {
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid #222;
+    color: #000;
+    cursor: default;
+}
+#sectiontab .tv-tpl-tabs-min > li > a:focus, .tv-tpl-tabs-min > li > a:hover {
+    background-color: rgba(0,0,0,0);
+}
+#sectiontab .animate, .animate * {
+    transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
+}
+/*buttons*/
+.tv-mb-10 {
+    margin-bottom: 10px;
+}
+.btn-mod, a.btn-mod {
+    background: #707070;
+    border: 2px solid transparent;
+    border-radius: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 4px 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: auto;
+    line-height: inherit;
+    transition: all 0.2s cubic-bezier(0, 0, 0.58, 1) 0s;
+}
+.btn-mod.btn-round {
+    border-radius: 2px;
+}
+.btn-mod.btn-large {
+    font-size: 13px;
+    padding: 12px 45px;
+}
+.btn-mod.btn-medium {
+    font-size: 12px;
+    padding: 8px 37px;
+}
+.btn-mod.btn-small {
+    font-size: 11px;
+    letter-spacing: 1px;
+    padding: 6px 17px;
+}
+.btn-mod:hover, .btn-mod:focus, a.btn-mod:hover, a.btn-mod:focus {
+    background: #707070;
+    border-color: transparent;
+    box-shadow: none;
+    color: rgba(255, 255, 255, 0.85);
+
+}
+.btn-mod.btn-border {
+    background: rgba(0,0,0,0);
+    border: 2px solid #2d3e50;
+    color: #2d3e50;
+}
+.btn-mod.btn-circle {
+    border-radius: 30px;
+}
+.tv-bg-dark {
+    background-color: #707070;
+}
+.tv-mb-10-70 {
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+.tv-tb-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.section-title {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.5em;
+    line-height: 1.4;
+    text-align: center;
+    text-transform: uppercase;
+}
+.btn-mod.btn-white {
+    background: #e1e1e1;
+    color: #000000;
+}
+.btn-mod.btn-border-white {
+    background: rgba(0,0,0,0);
+    border: 2px solid #e1e1e1;
+    color: #e1e1e1;
+}
+.btn-mod.btn-primary {
+    background-color: #337ab7;
+}
+.btn-mod.btn-success {
+    background-color: #5cb85c;
+}
+.btn-mod.btn-warning {
+    background-color: #f0ad4e;
+}
+.btn-mod.btn-danger {
+    background-color: #d9534f;
+}
+/*alerts*/
+.alert {
+    font-size: 1.05em;
+    letter-spacing: 1px;
+}
+.alert-primary {
+    background-color: #cce5ff;
+    border-color: #b8daff;
+    color: #004085;
+}
+.alert-secondary {
+    background-color: #e7e8ea;
+    border-color: #dddfe2;
+    color: #464a4e;
+}
+.alert-light {
+    background-color: #fefefe;
+    border-color: #fdfdfe;
+    color: #818182;
+}
+.alert-dark {
+    background-color: #d6d8d9;
+    border-color: #c6c8ca;
+    color: #1b1e21;
+}
+/*grid*/
+.text h5 {
+    font-weight: 500;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+.text > p {
+    font-size:1.05em;
+    letter-spacing: 1px;
+}
+/*form-fields*/
+label {
+    font-size:1.05em;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+.elements-form-fields .form-control {
+    border-radius: 0;
+    box-shadow: none;
+}
+.form-check {
+    margin-bottom: 5px;
+}
+.form-check.disabled .form-check-label {
+    color: #868e96;
+}
+#form-field .form-control::-moz-placeholder {
+    color: #999;
+    font-size: 12px;
+    letter-spacing: 1px;
+    opacity: 1;
+}
+
+/**/
+
+.tv-wrap-box.clearfix > p{
+    color: #2d3e50;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 24px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+.tv-cust-bq {
+    border-left: 5px solid #ea6055;
+    font-size: 1.05em;
+    font-style: italic;
+    letter-spacing: 1px;
+    line-height: 1.7em;
+    margin: 20px 0;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+
+/*Custom CSS */
+.panel-title > a {
+    color: #000000;
+    font-size: 1.05em;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+/*End Custom CSS*/

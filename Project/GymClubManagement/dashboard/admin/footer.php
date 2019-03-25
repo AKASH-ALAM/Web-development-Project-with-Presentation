@@ -1,0 +1,1 @@
+<footer class="main"> &copy; 2015 <strong>Wadud Ove's gYm </strong></footer>
